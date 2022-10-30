@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "243860052519",
+    "project_id": "supercom-pureprotect",
+    "storage_bucket": "supercom-pureprotect.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243860052519:android:031f36a8f6ffcb2fe48c02",
+        "android_client_info": {
+          "package_name": "com.supercom.pureprotect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "243860052519-aablcsop8153drg91nb6q7lm5s6399rk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzKwu7eMboKfi_nakLul5VTDkphfnBaNc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "243860052519-aablcsop8153drg91nb6q7lm5s6399rk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+ {
+      "client_info": {
+        "mobilesdk_app_id": "1:243860052519:android:031f36a8f6ffcb2fe48c02",
+        "android_client_info": {
+          "package_name": "com.supercom.puretrack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "243860052519-aablcsop8153drg91nb6q7lm5s6399rk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzKwu7eMboKfi_nakLul5VTDkphfnBaNc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "243860052519-aablcsop8153drg91nb6q7lm5s6399rk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    } 
+  ],
+  "configuration_version": "1"
+}

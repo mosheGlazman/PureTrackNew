@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.supercom.puretrack.ui.views.toolbar.BatteryView
+        android:id="@+id/batteryView"
+        android:layout_width="60dp"
+        android:layout_height="18dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="33dp"
+        app:Charging="false"
+        app:Percent="50"
+        app:ShowNumbers="true" />
+
+    <com.supercom.puretrack.ui.views.toolbar.MobileDataView
+        android:id="@+id/mobileDataView"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_alignParentEnd="true"
+        app:AvailableData="true"
+        app:TypeData="G3" />
+
+    <com.supercom.puretrack.ui.views.toolbar.CellularSignalView
+        android:id="@+id/networkView"
+        android:layout_width="15dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="18dp"
+        android:layout_height="18dp"
+        android:layout_alignParentEnd="true"
+        app:Available="true"
+        app:Level="3" />
+</RelativeLayout>

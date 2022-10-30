@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.supercom.puretrack.data">
+
+    <uses-feature android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.usb.host"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.usb.accessory"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.network"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.sensor.accelerometer"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.sensor.barometer"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.sensor.compass"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.sensor.gyroscope"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.sec.MDM_SECURITY" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="googlemaps.supercom.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
+    <uses-permission android:name="android.permission.MANAGE_OWN_CALLS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+    <uses-permission android:name="com.sec.enterprise.knox.permission.CUSTOM_SEALEDMODE" />
+    <uses-permission android:name="android.permission.sec.MDM_APN" />
+    <uses-permission android:name="com.sec.enterprise.knox.permission.CUSTOM_SYSTEM" />
+    <uses-permission android:name="com.sec.enterprise.knox.permission.CUSTOM_SETTING" />
+    <uses-permission android:name="android.permission.sec.MDM_RESTRICTION" />
+    <uses-permission android:name="android.permission.sec.MDM_PHONE_RESTRICTION" />
+    <uses-permission android:name="android.permission.sec.MDM_APP_MGMT" />
+    <uses-permission android:name="android.permission.sec.MDM_KIOSK_MODE" />
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+    <uses-permission android:name="com.sec.enterprise.knox.permission.CUSTOM_PROKIOSK" />
+    <uses-permission android:name="android.permission.sec.ENTERPRISE_DEVICE_ADMIN" />
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+    <uses-permission android:name="android.permission.sec.MDM_WIFI" />
+    <uses-permission android:name="com.samsung.permission.SSENSOR" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="android.permission.ACTION_MANAGE_OVERLAY_PERMISSION" />
+    <uses-permission android:name="android.permission.sec.MDM_HW_CONTROL"/>
+    <uses-permission android:name="com.samsung.android.knox.permission.KNOX_HW_CONTROL"/>
+    <uses-permission android:name="com.samsung.android.knox.permission.KNOX_HW_CONTROL" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+
+    <uses-permission
+        android:name="android.permission.FOREGROUND_SERVICE"
+        android:required="true" />
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+    <application
+        android:name="com.supercom.puretrack.util.application.App"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning"
+        android:largeHeap="true"
+        tools:targetApi="m">
+
+        <meta-data android:name="com.samsung.knoxlicense.permissions" android:value="true"/>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+
+
+        <receiver android:exported="true" android:name="com.supercom.puretrack.data.broadcast_receiver.PhoneCallReceiver">
+            <intent-filter android:priority="100">
+                <action android:name="android.intent.action.REBOOT" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
+                <action android:name="android.intent.action.PACKAGE_FIRST_LAUNCH" />
+                <action android:name="android.intent.action.PACKAGE_RESTARTED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+                <action android:name="android.intent.action.PACKAGE_RESTARTED" />
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.intent.action.CLOSE_SYSTEM_DIALOGS" />
+                <action android:name="android.intent.action.CLOSE_SYSTEM_DIALOGS" />
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+                <action android:name="android.intent.action.PACKAGE_RESTARTED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.supercom.puretrack.data.broadcast_receiver.SimChangedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.SIM_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.supercom.puretrack.data.broadcast_receiver.IncomingCallReceiver">
+            <intent-filter android:priority="100">
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.supercom.puretrack.data.broadcast_receiver.OutgoingCallReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE" />
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.supercom.puretrack.data.broadcast_receiver.WakingAlarmBroadcastReceiver" />
+        <receiver android:exported="true" android:name="com.supercom.puretrack.data.broadcast_receiver.WatchdogReceiver" />
+        <receiver android:exported="true" android:name="com.supercom.puretrack.data.broadcast_receiver.NewDayStartReceiver" />
+        <receiver android:exported="true" android:name="com.supercom.puretrack.data.broadcast_receiver.UpdateUIReceiver" />
+        <receiver android:exported="true" android:name="com.supercom.puretrack.data.broadcast_receiver.NetworkCycleReceiver" />
+        <receiver android:exported="true" android:name="com.supercom.puretrack.data.broadcast_receiver.LocationPointReceiver" />
+        <receiver android:exported="true" android:name="com.supercom.puretrack.data.broadcast_receiver.WakingAlarmBroadcastReceiver" />
+        <receiver android:exported="true" android:name="com.supercom.puretrack.data.broadcast_receiver.SmsReceiver">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.supercom.puretrack.data.broadcast_receiver.NetworkChangeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.AIRPLANE_MODE" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true"
+            android:name=".service.heart_beat.TurnOnReceiver">
+            <intent-filter>
+                <action android:name="ACTION_TurnOnScreen" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:exported="true"
+            android:name="com.supercom.puretrack.data.broadcast_receiver.KnoxAdminReceiver"
+            android:permission="android.permission.BIND_DEVICE_ADMIN">
+            <meta-data
+                android:name="android.app.device_admin"
+                android:resource="@xml/device_admin_receiver" />
+
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true"
+            android:name="com.supercom.puretrack.data.broadcast_receiver.KnoxLicenseReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="edm.intent.action.license.status" />
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.supercom.puretrack.data.broadcast_receiver.TimeChangedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.TIME_SET" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.supercom.puretrack.data.broadcast_receiver.RestartBackgroundReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="restartservice" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.supercom.puretrack.ui.activity.TurnOnScreenActivity"
+            android:exported="true" />
+
+        <activity android:exported="true"
+            android:name="com.supercom.puretrack.ui.activity.MainActivity"
+            android:configChanges="locale|layoutDirection"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"
+            tools:ignore="LockedOrientationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.settings.SETTINGS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.settings.WIRELESS_SETTINGS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.DIAL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="tel" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.DIAL" />
+                <action android:name="android.intent.action.CALL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:exported="true" android:name="com.supercom.puretrack.ui.activity.CheckPermissionActivity"/>
+        <activity android:exported="true"
+            android:name="com.supercom.puretrack.ui.activity.LauncherActivity"
+            android:configChanges="locale|layoutDirection"
+            android:excludeFromRecents="true"
+            android:label="Simple Launcher Home"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:stateNotNeeded="true"
+            android:theme="@android:style/Theme.Wallpaper.NoTitleBar.Fullscreen"
+            tools:ignore="LockedOrientationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="android.intent.action.ACTION_REQUEST_SHUTDOWN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.supercom.puretrack.ui.enrollment.activity.EnrollmentActivity"
+            android:configChanges="locale|layoutDirection"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.supercom.puretrack.ui.activity.EnterPasswordActivity"
+            android:configChanges="locale|layoutDirection"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:taskAffinity=""
+            android:theme="@android:style/Theme.Translucent"
+            tools:ignore="LockedOrientationActivity" />
+
+        <service android:exported="true"
+            android:name=".service.DeviceConfigurationAccessibilityService"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/device_settings_configuration_service_actions" />
+        </service>
+        <service
+            android:name=".cycle.CycleService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".service.heart_beat.HeartBeatServiceJava2"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="com.supercom.puretrack.data.service.WatchdogService"
+            android:enabled="true"
+            android:process=":watchdog_process" />
+
+        <service android:name="com.supercom.puretrack.data.service.ActivityRecognizedService" />
+
+        <activity
+            android:name="com.supercom.puretrack.ui.lockscreen.LockScreenActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+            tools:ignore="LockedOrientationActivity" />
+
+        <service android:name="com.supercom.puretrack.data.service.ActivityRecognizedService" />
+        <service android:name="com.supercom.puretrack.ui.lockscreen.LockScreenService" />
+
+        <receiver android:exported="true"
+            android:name="com.supercom.puretrack.ui.lockscreen.LockScreenReceiver"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.supercom.puretrack.data.service.LocationService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <service
+            android:name="com.supercom.puretrack.data.service.ToolbarInfoUtilsService"
+            android:enabled="true"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

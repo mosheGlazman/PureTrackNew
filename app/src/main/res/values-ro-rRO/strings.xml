@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PureTrack</string>
+    <string name="send">Trimite</string>
+    <string name="stringMustStay">Trebuie să stai acasă</string>
+    <string name="stringMessagesNoti">MESAJE &amp; NOTIFICĂRI</string>
+
+
+    <!-- Main activity -->
+    <string name="button_scan">Scanează</string>
+    <string name="bt_not_supported">Bluetooth nu este suportat</string>
+    <string name="ble_not_supported">BLE nu este suportat</string>
+    <string name="btn_ok">OK</string>
+    <string name="monitoring_suspended">Monitorizare Suspendată</string>
+
+    <!-- Options menu -->
+
+    <!-- FWUpdate activity -->
+    <string name="cancel">Anulare</string>
+
+    <string-array name="server_name_options">
+        <item>Senast vald</item>
+        <item>Fri text (Rens)</item>
+        <item>https://35.156.183.207/PureMonitorWCFServiceMojSat/RestfulService.svc/</item>
+        <item>https://35.156.183.207/PureMonitorWCFServiceUSNew/RestfulService.svc/</item>
+        <item>https://devicesfinland.supercom.com/PureMonitorWCFService/RestfulService.svc/</item>
+        <item>https://10.1.1.40/spc.puremonitor.api.us.new/RestfulService.svc/</item>
+        <item>https://52.32.241.136/PureMonitorWCFService/RestfulService.svc/</item>
+        <item>https://puremonitordemo.supercom.com/PureMonitorWCFService/RestfulService.svc/</item>
+        <item>https://emsdevice-qat.om.fi/PureMonitorWCFService/RestfulService.svc/</item>
+
+    </string-array>
+
+
+    <string-array name="ble_tags_addr_options">
+        <item>Ultima alegere</item>
+        <item>Free text (Clear)</item>
+        <item>F4:B8:5E:B9:AA:2A</item>
+        <item>F4:B8:5E:B9:AD:F3</item>
+        <item>F4:B8:5E:B9:A7:76</item>
+        <item>F4:B8:5E:B9:AD:A8</item>
+    </string-array>
+
+
+    <string-array name="day_of_week_array">
+        <item>Duminică</item>
+        <item>Luni</item>
+        <item>Marți</item>
+        <item>Miercuri</item>
+        <item>Joi</item>
+        <item>Vineri</item>
+        <item>Sâmbătă</item>
+    </string-array>
+
+    <string-array name="month_array">
+        <item>Ianuarie</item>
+        <item>Februarie</item>
+        <item>Martie</item>
+        <item>Aprilie</item>
+        <item>Mai</item>
+        <item>Iunie</item>
+        <item>Iulie</item>
+        <item>August</item>
+        <item>Septembrie</item>
+        <item>Octombrie</item>
+        <item>Noiembrie</item>
+        <item>Decembrie</item>
+    </string-array>
+
+    <!-- Home -->
+    <string name="home_text_currently">Actual</string>
+    <string name="home_text_device_unallocated">Dispozitiv Nealocat</string>
+    <string name="home_text_can_go_out">Poți ieși</string>
+    <string name="home_text_until">"până "</string>
+    <string name="home_text_next_from">"Următorul: "</string>
+    <string name="home_text_to">" la "</string>
+    <string name="home_text_today">"Astăzi la "</string>
+    <string name="home_text_must_be_at_zone">Trebuie să fie la</string>
+    <string name="home_text_no_new_appointments">Nu sunt programări noi</string>
+    <string name="home_text_proximity_detected">S-A DETECTAT APROPIERE</string>
+    <string name="home_text_leave_the_area">Părăsește zona!</string>
+    <string name="home_text_your_officer_has_been_notified">Supraveghetorul tău a fost notificat.</string>
+    <string name="home_text_proximity_alert">Alertă apropiere</string>
+    <string name="home_text_must_stay_at_zone">Trebuie să stai la</string>
+    <string name="entered_buffer_zone">Intrat în zona tampon</string>
+    <string name="home_text_next_">Următorul:</string>
+    <string name="home_text_must_leave_zone">Trebuie să părăsești</string>
+
+
+    <!-- Call -->
+    <string name="call_text_supervisors">Sună supraveghetorii</string>
+    <string name="call_button_your_officer">Supraveghetorul tău</string>
+    <string name="call_button_agency_center">Agenția Centrală</string>
+    <string name="call_button_emergency">Urgență  </string>
+
+
+    <!-- Messages -->
+    <string name="messages_button_messages_notifications">Mesaje &amp; Notificări</string>
+
+
+    <!-- Schedule -->
+    <string name="schedule_text_zone_must_be_in" formatted="false">Trebuie să fii la</string>
+    <string name="schedule_text_zone_must_be_out" formatted="false">Trebuie să fii afară\n %s</string>
+    <string name="schedule_text_zone_can_go_in" formatted="false">Poți intra în\n %s</string>
+    <string name="schedule_text_inspection" formatted="false">Inspecție</string>
+
+
+    <!-- General -->
+    <string name="general_button_call">CONVORBIRE</string>
+    <string name="general_button_messages">MESAJE</string>
+    <string name="general_button_schedule">PROGRAMARE</string>
+    <string name="general_button_map">HARTA</string>
+    <string name="send_button_msg">TRIMITE</string>
+
+
+    <!-- Dialog -->
+    <string name="dialog_text_biometric_test">TEST BIOMETRIC</string>
+    <string name="dialog_text_new_message">MESAJ NOU</string>
+    <string name="dialog_text_please_conduct_biometric_test">Vă rog inițializați test biometric</string>
+    <string name="dialog_text_swipe_to_start_text">Glisează pentru începere test</string>
+    <string name="dialog_text_swipe_to_acknowledge_message">Glisează pentru confirmare mesaj</string>
+    <string name="dialog_text_puretrack_upgrade">Actualizare PureTrack</string>
+    <string name="dialog_text_all_apk_update">Această versiune PureTrack necesită actualizare pentru:\n %s \n\nVă rog așteptați până când PureTrack se actualizează..¦</string>
+    <string name="dialog_text_google_play_services_upgrade">Această versiune PureTrack necesită o actualizare a Servicilor Google Play. Vă rog așteptați până când PureTrack se actualizează</string>
+    <string name="dialog_text_enter_the_password" formatted="false">Vă rog introduceți parola pentru PureTrack S/N %s</string>
+    <string name="dialog_edittext_enter_password">Introduceți parola</string>
+    <string name="dialog_button_unlock_settings">Deblocare parolă</string>
+    <string name="dialog_button_from_officer">Din partea Supraveghetorului</string>
+    <string name="custom_dialog_swipe_to_acknowledge_message">Glisează pentru confirmarea mesajului</string>
+
+
+    <!-- AcknowledgeWIthButtonDialog:  Battery Info -->
+    <string name="dialog_ack_battery_title">Informații Baterie</string>
+    <string name="dialog_ack_battery_is_charging_msg">Bateria se încarcă..¦</string>
+    <string name="dialog_ack_battery_stopped_charging_msg">Baterie Încărcată¦</string>
+    <string name="dialog_ack_battery_please_charge">Baterie Descărcată. Vă rog Încărcați!</string>
+
+    <!-- UnallocateDialog -->
+    <string name="dialog_unallocate_conformation_title">CONFIRMARE</string>
+    <string name="dialog_unallocate_notice_title">ATENȚIONARE</string>
+    <string name="dialog_unallocate_processing_title">PROCESARE</string>
+    <string name="dialog_unallocate_confirmation_body" formatted="false">Doriți să închideți PureTag SN: %s?</string>
+    <string name="dialog_unallocate_notice_stap_close_body">Pentru a închide PureTag, mai întâi desfă brățara\nAștept desfacerea brățării..¦</string>
+    <string name="dialog_unallocate_notice_stap_open_body">entru a închide PureTag, vă rog apăsați Continuare</string>
+    <string name="dialog_unallocate_processing_body">Se oprește identificatorul..¦</string>
+    <string name="dialog_unallocate_tag_turned_off_success_body">Identificatorul a fost oprit.</string>
+    <string name="dialog_unallocate_tag_turned_off_error_body">Oprirea Identificatorului a eșuat.\nDoriți să reîncercați?</string>
+    <string name="dialog_unallocate_btn_turn_tag_off">OPREȘTE IDENTIFICATOR</string>
+    <string name="dialog_unallocate_btn_cancel">ANULARE</string>
+    <string name="dialog_unallocate_btn_continue">CONTINUARE</string>
+    <string name="dialog_unallocate_btn_retry">REÎNCEARCĂ</string>
+
+    <!-- Enrolment -->
+    <string name="enrolment_text_title_type">Verificare Dispozitiv</string>
+    <string name="enrolment_text_verified">Verificat</string>
+    <string name="enrolment_text_Verification_failed">Verificare eșuată</string>
+    <string name="enrolment_text_pure_tag" formatted="false">PureTag #%s</string>
+    <string name="enrolment_text_pure_beacon" formatted="false">PureBeacon #%s</string>
+    <string name="enrolment_text_test_tag">Testare Identificator</string>
+    <string name="enrolment_text_test_beacon">Testare Semnal</string>
+    <string name="enrolment_text_pending_enrolment">Se așteaptă Înrolare</string>
+    <string name="enrolment_text_pending_activation">Se așteaptă Activare</string>
+    <string name="enrolment_text_device_battery_error">Baterie Descărcată\n</string>
+    <string name="enrolment_text_device_tag_timeout_error">Identificatorul nu a fost găsit\n</string>
+    <string name="enrolment_text_device_stap_error">Brățara Identificatorului este desfăcută\n</string>
+    <string name="enrolment_text_device_tag_case_error">Carcasa Identificatorului este Deschisă\n</string>
+    <string name="enrolment_text_device_beacon_timeout_error">Nu am detectat semnal\n</string>
+    <string name="enrolment_text_device_proximity_error">Încercare Apropiere\n</string>
+    <string name="enrolment_text_device_beacon_case_error">Carcasa este Deschisă\n</string>
+    <string name="enrolment_text_fingerprint_title">Scanare Amprentă</string>
+    <string name="enrolment_text_fingerprint_register" formatted="false">%s, Vă rog glisați degetul arătător pentru înregistrarea amprentei</string>
+    <string name="enrolment_text_location_title_type">Validarea Locației</string>
+    <string name="enrolment_text_location_acquiring_Location">Înregistrarea Locației</string>
+    <string name="enrolment_text_location_location_acquired">Locatie Înregistrată</string>
+    <string name="enrolment_text_location_location_failed">Înregistrarea Locației Eșuată</string>
+    <string name="enrolment_text_location_order_message">Pentru acuratețea locației mergeți în exterior sau în apropierea ferestrei</string>
+    <string name="enrolment_text_location_gps_doesnt_meet_threshold">Acuratețea GPS-ului nu îndeplinește valorile necesare. Vă rog să vă deplasați în exterior pentru o mai bună localizare.</string>
+    <string name="enrolment_text_location_network_doesnt_meet_threshold">Acuratețea Rețelei nu îndeplinește valorile necesare. Vă rog să vă deplasați în exterior pentru o mai bună localizare.</string>
+    <string name="enrolment_text_location_gps_network_doesnt_meet_threshold">Acuratețea GPS-ului și a Rețelei nu îndeplinește valorile necesare. Vă rog să vă deplasați în exterior pentru o mai bună localizare.</string>
+    <string name="enrolment_text_location_no_gps_point">Nu s-a recepționat semnal GPS. Vă rog verificați setările telefonului.</string>
+    <string name="enrolment_text_location_no_network_point">Nu s-a recepționat semnal Rețea. Vă rog verificați setările telefonului.</string>
+    <string name="enrolment_text_location_no_gps_network_point">Nu s-a recepționat semnal GPS sau de Rețea. Vă rog verificați setările telefonului.</string>
+    <string name="enrolment_text_location_gps_network_points">Semnal GPS și de Rețea recepționat. Număr Sateliți:</string>
+    <string name="enrolment_button_start_enrolment">Start Înrolare</string>
+    <string name="enrolment_button_back">Înapoi</string>
+    <string name="enrolment_button_next">Următorul</string>
+    <string name="enrolment_button_skip">Exclude</string>
+    <string name="enrolment_button_finish">Finalizat</string>
+    <string name="enrolment_text_knox_install_title">Validare KNOX</string>
+    <string name="enrolment_text_knox_title_activated">KNOX Activat</string>
+    <string name="enrolment_text_knox_title_activating">Activare KNOX</string>
+    <string name="enrolment_text_knox_title_failed">Activare KNOX Eșuată</string>
+    <string name="enrolment_text_knox_title_inactive">KNOX Inactiv</string>
+    <string name="enrolment_text_knox_title_detected">KNOX Detectat</string>
+    <string name="enrolment_button_knox_install_activate">ACTIVEAZĂ KNOX</string>
+    <string name="enrolment_button_knox_install_proccess_time">Procesul poate dura până la 1 minut</string>
+    <string name="enrolment_text_knox_install_status_is_active">Validare dacă KNOX este activ pe dispozitiv</string>
+    <string name="enrolment_text_knox_install_status_detected_active">PureTrack a detectat că KNOX este activ pe dispozitiv</string>
+    <string name="enrolment_text_knox_install_status_detected_not_active">PureTrack a detectat că KNOX nu este activ pe dispozitiv</string>
+    <string name="enrolment_text_knox_install_status_succeeded">KNOX este acum activ pe dispozitiv</string>
+    <string name="enrolment_text_knox_install_status_failed">PureTrack nu a putut activa KNOX pe dispozitiv</string>
+    <string name="enrolment_text_knox_install_is_active_title_type">Configurare KNOX</string>
+    <string name="lockscreen_text_slide_to_unlock">Glisează pentru deblocare</string>
+    <string name="voice_call">Apel Vocal</string>
+    <string name="incoming_call">Recepționare apel vocal..¦</string>
+    <string name="incoming_call_slide_to_answer"> glisează pentru a răspunde</string>
+    <string name="wrong_pincode"> Pincode Greșit</string>
+    <string name="wrong_pincode_deviceLock"> Pincode Greșit,\n Dispozitiv Blocat</string>
+
+
+    <!-- OffenderDetails -->
+    <string name="enrollment_text_title_offenderDetails">Detalii Contravenient</string>
+    <string name="enrollment_text_offenderDetails_details">DETALII</string>
+    <string name="enrollment_text_offenderDetails_primaryPhone">TELEFON PRNCIPAL</string>
+    <string name="enrollment_text_offenderDetails_secondaryPhone">TELEFON SECUNDAR</string>
+    <string name="enrollment_text_offenderDetails_homeAddr">ADRESA DOMICILIU</string>
+    <string name="enrollment_text_offenderDetails_agency">AGENȚIE &amp; SUPRAVEGHETOR</string>
+
+
+    <!-- Launcher -->
+    <string name="launcher_button_show_settings">Afișează Setări</string>
+    <string name="launcher_button_shutdown">Închidere</string>
+    <string name="dialog_text_shutdown" formatted="false">Se Închide Dispozitivul?</string>
+    <string name="launcher_text_enter_officer_mode">Introduceți Modul Supraveghetor</string>
+    <string name="launcher_text_enter_offender_mode">Introduceți Modul Contravenient</string>
+    <string name="launcher_text_enter_offender_flight_mode">Introduceți Modul de Evadare Contravenient</string>
+
+    <!-- Google play -->
+    <string name="google_play_text_upgrade_start_update">Start Actualizare Google Play</string>
+    <string name="google_play_text_upgrade_start_out_of_date">Versiunea serviciilor Google play este depășită</string>
+
+    <!--  	 Communication Server Details -->
+    <string name="communication_server_text_url">http://puremonitor.supercom.com/PureMonitorWcfService/RestfulService.svc/</string>
+    <string name="open_dialer">Open Tastatura</string>
+    <string name="open_settings">Open Configurări</string>
+
+    <!--    On Demand Photo Dialog-->
+    <string name="message_dialog_on_demand_photo_message">Mesaj foto la cerere</string>
+    <string name="message_dialog_swipe_to_take_a_photo">Glisează pentru a face o fotografie</string>
+    <string name="dialog_photo_on_demand_error_sending_image">Trimiterea imaginii a eșuat, vă rog încercați din nou</string>
+    <string name="dialog_photo_on_demand_photo_saved">Fotografie salvată</string>
+    <string name="retry">Reîncearcă</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello fragment gol</string>
+    <string name="magnetics_calibrate">Calibrare magnetică</string>
+
+
+</resources>

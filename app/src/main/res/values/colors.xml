@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="grey_call">#555555</color>
+    <color name="blueee">#D3A40B</color>
+    <color name="grey_darker">#FF202020</color>
+    <color name="grey_lighter">#FF5c5c5c</color>
+    <color name="grey_light">#8A8A8A</color>
+    <color name="green">#090</color>
+    <color name="blue_darker">#162842</color>
+    <color name="blue_dark">#253853</color>
+    <color name="black_alpha">#EE000000</color>
+    <color name="dialog_body_title">#B1B1B1</color>
+    <color name="dialog_body_backgorund">#363636</color>
+    <color name="darkRed">#B63513</color>
+    <color name="darkOrange">#FF8000</color>
+    <color name="grey">#696969</color>
+    <color name="black">#ff000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="background_holo_light">#fff3f3f3</color>
+    <color name="enrollment_device_error_color">#D03A3A</color>
+    <color name="enrollment_start_enrollment_button">#337cde</color>
+    <color name="White">#FFFFFF</color>
+    <color name="WhiteSmoke">#bfbfbf</color>
+    <color name="LightGrey">#D3D3D3</color>
+    <color name="DarkBlue">#00008B</color>
+    <color name="Black">#000000</color>
+    <color name="darkGrey">#585858</color>
+    <color name="text_color">#404040</color>
+    <color name="lightGrey">#696969</color>
+    <color name="mainActivityGreen">#0f7023</color>
+    <color name="red">#B63513</color>
+    <color name="lightBlue">#458CEB</color>
+    <color name="lightBlack">#9E9E9E</color>
+
+    <color name="battery">#fff</color>
+    <color name="battery_fill">#eee</color>
+
+
+</resources>

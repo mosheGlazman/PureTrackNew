@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.supercom.puretrack.ui.views.FontFitTextView
+        android:layout_weight="0.8"
+        android:layout_width="match_parent"
+        android:gravity="center|bottom"
+        android:text="4G"
+        android:id="@+id/textView"
+        android:textColor="#fff"
+        android:layout_height="match_parent"/>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_baseline_signal_data_enabled"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="send_button_msg">Lähetä</string>
+    <string name="send">Lähetä</string>
+
+    <!-- Home -->
+    <string name="home_text_currently">Tällä hetkellä</string>
+    <string name="home_text_device_unallocated">laite ei yhdistetty</string>
+    <string name="home_text_can_go_out">Voi mennä ulos</string>
+    <string name="home_text_until">"kunnes"</string>
+    <string name="home_text_next_from">"Seuraava: "</string>
+    <string name="home_text_to">" - "</string>
+    <string name="home_text_today">"Tänään klo "</string>
+    <string name="home_text_must_be_at_zone">Pitää olla</string>
+    <string name="home_text_no_new_appointments">ei uusia tapaamisia</string>
+    <string name="home_text_proximity_detected">LÄHEISYYS HAVAITTU</string>
+    <string name="home_text_leave_the_area">kielletty alue</string>
+    <string name="home_text_your_officer_has_been_notified">Virkailijallenne on ilmoitettu.</string>
+    <string name="home_text_proximity_alert">etäisyyshälytys</string>
+    <string name="home_text_must_stay_at_zone">Pitää pysyä osoitteessa</string>
+    <string name="home_text_next_">Seuraava:</string>
+    <string name="home_text_must_leave_zone">Täytyy lähteä</string>
+
+    <!-- Call -->
+    <string name="call_text_supervisors">valvonta</string>
+    <string name="call_button_your_officer">oma virkailija</string>
+    <string name="call_button_agency_center">yksikön päivystys</string>
+    <string name="call_button_emergency">päivystys</string>
+
+    <!-- Messages -->
+    <string name="messages_button_messages_notifications">Viestit ja ilmoitukset</string>
+
+    <!-- Schedule -->
+    <string name="schedule_text_zone_must_be_in">Pitää olla</string>
+    <string name="schedule_text_zone_must_be_out">pitää olla ulkona\n %s</string>
+    <string name="schedule_text_zone_can_go_in">Voi mennä sisään\n %s</string>
+
+    <!-- General -->
+    <string name="general_button_call">SOITA</string>
+    <string name="general_button_messages">VIESTIT</string>
+    <string name="general_button_schedule">AIKATAULU</string>
+
+    <!-- Dialog -->
+    <string name="dialog_text_biometric_test">BIOMETRINEN TESTI</string>
+    <string name="dialog_text_new_message">UUSI VIESTI</string>
+    <string name="dialog_text_please_conduct_biometric_test">Suorita biometrinen testi</string>
+    <string name="dialog_text_swipe_to_start_text">Aloita testi pyyhkäisemällä</string>
+    <string name="dialog_text_swipe_to_acknowledge_message">Kuittaa viesti pyyhkäisemällä</string>
+    <string name="dialog_text_puretrack_upgrade">puhelimen päivitys</string>
+    <string name="dialog_text_all_apk_update">puhelin vaatii päivityksen.\n %s \n\n\nodota kun puhelin suorittaa päivityksen.</string>
+    <string name="dialog_text_google_play_services_upgrade">puhelin vaatii google-päivityksen. odota kun puhelin suorittaa päivityksen.</string>
+    <string name="dialog_text_enter_the_password">laita puhelimen salasana</string>
+    <string name="dialog_edittext_enter_password">Syötä salasana</string>
+    <string name="dialog_button_unlock_settings">Salasanan avaaminen</string>
+    <string name="dialog_button_from_officer">virkailijalta</string>
+
+    <!-- UnallocateDialog -->
+    <string name="dialog_unallocate_conformation_title">VAHVISTUS</string>
+    <string name="dialog_unallocate_notice_title">ILMOITUS</string>
+    <string name="dialog_unallocate_processing_title">suorittaa, odota</string>
+    <string name="dialog_unallocate_confirmation_body" formatted="false">Haluatko poistaa PureTag S/N: %s käytöstä?</string>
+    <string name="dialog_unallocate_notice_stap_close_body">Jos haluat sammuttaa PureTagin, katkaise ensin hihna\nHihnan leikkaamista odotellessa…</string>
+    <string name="dialog_unallocate_notice_stap_open_body">Jos haluat sammuttaa PureTagin, paina continue.</string>
+    <string name="dialog_unallocate_processing_body">pannan sammuttaminen…</string>
+    <string name="dialog_unallocate_tag_turned_off_success_body">panta sammutettu</string>
+    <string name="dialog_unallocate_tag_turned_off_error_body">Tagin sammuttaminen epäonnistui.\nTahdotko yrittää uudelleen?</string>
+    <string name="dialog_unallocate_btn_turn_tag_off">sammuta panta</string>
+    <string name="dialog_unallocate_btn_cancel">PERUUTA</string>
+    <string name="dialog_unallocate_btn_continue">JATKA</string>
+    <string name="dialog_unallocate_btn_retry">YRITÄ UUDELLEEN</string>
+
+    <!-- Enrolment -->
+    <string name="enrolment_text_title_type">laitteen vahvistus</string>
+    <string name="enrolment_text_verified">Vahvistettu</string>
+    <string name="enrolment_text_Verification_failed">vahvistus epäonnistui</string>
+    <string name="enrolment_text_pure_tag" formatted="false">panta #%s</string>
+    <string name="enrolment_text_pure_beacon" formatted="false">PureBeacon #%s</string>
+    <string name="enrolment_text_test_tag">pannan testaus</string>
+    <string name="enrolment_text_test_beacon">Testausmajakka</string>
+    <string name="enrolment_text_pending_enrolment">odottaa kirjautumista</string>
+    <string name="enrolment_text_pending_activation">Odottaa aktivointia</string>
+    <string name="enrolment_text_device_battery_error">alhainen akun varaus\n</string>
+    <string name="enrolment_text_device_tag_timeout_error">pantaa ei löydy\n</string>
+    <string name="enrolment_text_device_stap_error">pannan hihna on auki\n</string>
+    <string name="enrolment_text_device_tag_case_error">pannan kotelo on auki\n</string>
+    <string name="enrolment_text_device_beacon_timeout_error">Majakka ei löydy\n</string>
+    <string name="enrolment_text_device_proximity_error">Läheisyys Tamper\n</string>
+    <string name="enrolment_text_device_beacon_case_error">kotelo on auki\n</string>
+    <string name="enrolment_text_fingerprint_title">Sormenjälkien skannaus</string>
+    <string name="enrolment_text_fingerprint_register" formatted="false">%s, pyyhkäise etusormeasi rekisteröidäksesi sormenjäljen.</string>
+    <string name="enrolment_text_location_title_type">Sijainnin validointi</string>
+    <string name="enrolment_text_location_acquiring_Location">hakee sijaintia</string>
+    <string name="enrolment_text_location_location_acquired">sijainti hankittu.</string>
+    <string name="enrolment_text_location_location_failed">Sijaintia ei onnistuttu hankkimaan</string>
+    <string name="enrolment_text_location_order_message">paras sijainti on ulkona tai ikkunalla.</string>
+    <string name="enrolment_text_location_gps_doesnt_meet_threshold">GPS tarkkuus ei riitä. mene ulkoilmaan.</string>
+    <string name="enrolment_text_location_network_doesnt_meet_threshold">verkon tarkkuus ei riitä. mene ulkoilmaan.</string>
+    <string name="enrolment_text_location_gps_network_doesnt_meet_threshold">GPS:n ja verkon tarkkuus ei riitä. mene ulkoilmaan.</string>
+    <string name="enrolment_text_location_no_gps_point">GPS-pistettä ei vastaanotettu. Tarkista puhelimen asetukset.</string>
+    <string name="enrolment_text_location_no_network_point">verkkopisteitä ei vastaanotettu. tarkista puhelimen asetukset.</string>
+    <string name="enrolment_text_location_no_gps_network_point">GPS- tai verkkopistettä ei vastaanotettu. Tarkista puhelimen asetukset.</string>
+    <string name="enrolment_text_location_gps_network_points">GPS- ja verkkopisteet vastaanotettu. Satelliittien määrä:</string>
+    <string name="enrolment_button_start_enrolment">aloita sisäänkirjaus</string>
+    <string name="enrolment_button_back">Takaisin</string>
+    <string name="enrolment_button_next">Seuraava</string>
+    <string name="enrolment_button_skip">Ohita</string>
+    <string name="enrolment_button_finish">Viimeistely</string>
+    <string name="enrolment_text_knox_install_title">KNOX-validointi</string>
+    <string name="enrolment_text_knox_title_activated">KNOX aktivoitu</string>
+    <string name="enrolment_text_knox_title_activating">KNOXin aktivointi</string>
+    <string name="enrolment_text_knox_title_failed">KNOXin aktivointi epäonnistui</string>
+    <string name="enrolment_text_knox_title_inactive">KNOX Inaktiivinen</string>
+    <string name="enrolment_text_knox_title_detected">KNOX havaittu</string>
+    <string name="enrolment_button_knox_install_activate">AKTIVOI KNOX</string>
+    <string name="enrolment_button_knox_install_proccess_time">Prosessi voi kestää jopa 1 minuutin</string>
+    <string name="enrolment_text_knox_install_status_is_active">Sen tarkistaminen, onko KNOX aktiivinen laitteessa.</string>
+    <string name="enrolment_text_knox_install_status_detected_active">PureTrack havaitsi, että KNOX on aktiivinen laitteessa.</string>
+    <string name="enrolment_text_knox_install_status_detected_not_active">PureTrack havaitsi, että KNOX ei ole aktiivinen laitteessa.</string>
+    <string name="enrolment_text_knox_install_status_succeeded">KNOX on nyt aktiivinen laitteessa</string>
+    <string name="enrolment_text_knox_install_status_failed">PureTrack ei pystynyt aktivoimaan KNOX:ia laitteessa.</string>
+    <string name="enrolment_text_knox_install_is_active_title_type">KNOX-asetus</string>
+    <string name="lockscreen_text_slide_to_unlock">Avaa lukitus pyyhkäisemällä</string>
+    <string name="voice_call">Äänipuhelu</string>
+    <string name="incoming_call">Saapuva äänipuhelu...</string>
+    <string name="incoming_call_slide_to_answer">pyyhkäise vastataksesi</string>
+
+    <!-- OffenderDetails -->
+    <string name="enrollment_text_title_offenderDetails">valvottavan tiedot</string>
+    <string name="enrollment_text_offenderDetails_details">yksityiskohdat</string>
+    <string name="enrollment_text_offenderDetails_primaryPhone">ENSIMMÄINEN PUHELIN</string>
+    <string name="enrollment_text_offenderDetails_secondaryPhone">TOINEN PUHELIN</string>
+    <string name="enrollment_text_offenderDetails_homeAddr">kotiosoite</string>
+    <string name="enrollment_text_offenderDetails_agency">yksikkö ja virkailija</string>
+
+    <!-- Launcher -->
+    <string name="launcher_button_show_settings">Näytä asetukset</string>
+    <string name="launcher_button_shutdown">sammutus</string>
+    <string name="dialog_text_shutdown" formatted="false">Sammuta laite?</string>
+    <string name="launcher_text_enter_officer_mode">Siirry upseeritilaan</string>
+    <string name="launcher_text_enter_offender_mode">Siirry rikoksentekijä-tilaan</string>
+    <string name="launcher_text_enter_offender_flight_mode">Siirry rikoksentekijän lentotilaan</string>
+
+    <!-- Photo -->
+    <string name="message_dialog_on_demand_photo_message">Valokuvaviesti pyynnöstä</string>
+    <string name="message_dialog_swipe_to_take_a_photo">Ota valokuva pyyhkäisemällä</string>
+    <string name="dialog_photo_on_demand_error_sending_image">Kuvan lähetys epäonnistui, yritä uudelleen</string>
+    <string name="dialog_photo_on_demand_photo_saved">Kuva tallennettu</string>
+    <string name="retry">Uudelleenyritys</string>
+
+    <string-array name="day_of_week_array">
+        <item>Sunnuntai</item>
+        <item>Maanantai</item>
+        <item>Tiistai</item>
+        <item>Keskiviikko</item>
+        <item>Torstai</item>
+        <item>Perjantai</item>
+        <item>Lauantai</item>
+    </string-array>
+
+    <string-array name="month_array">
+        <item>Tammikuu</item>
+        <item>Helmikuu</item>
+        <item>Maaliskuu</item>
+        <item>Huhtikuu</item>
+        <item>Toukokuu</item>
+        <item>Kesäkuu</item>
+        <item>Heinäkuu</item>
+        <item>Elokuu</item>
+        <item>Syyskuu</item>
+        <item>Lokakuu</item>
+        <item>Marraskuu</item>
+        <item>Joulukuu</item>
+    </string-array>
+
+</resources>

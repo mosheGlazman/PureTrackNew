@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activityAppsListFooter"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/officerModeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="enterModeClick"
+        android:text="@string/launcher_text_enter_offender_mode" />
+
+    <Button
+        android:id="@+id/showSettingsButton"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        tools:visibility="visible"
+        android:layout_height="wrap_content"
+        android:onClick="showSettings"
+        android:text="@string/launcher_button_show_settings" />
+
+    <Button
+        android:id="@+id/showShutdownDialogButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showShutdownDialog"
+        android:text="@string/launcher_button_shutdown" />
+
+</LinearLayout>

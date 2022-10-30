@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PureTrack</string>
+    <string name="stringMustStay">Skal blive hjemme</string>
+    <string name="stringMessagesNoti">BESKEDER &amp; NOTIFIKATIONER</string>
+
+
+    <!-- Main activity -->
+    <string name="button_scan">Skan</string>
+    <string name="bt_not_supported">Bluetooth er ikke understøttet</string>
+    <string name="ble_not_supported">BLE er ikke understøttet</string>
+    <string name="btn_ok">OK</string>
+
+    <!-- Options menu -->
+
+
+    <!-- FWUpdate activity -->
+    <string name="cancel">Annullér</string>
+
+    <string-array name="languages_options">
+        <item>English</item>
+        <item>Czech</item>
+        <item>Danish</item>
+        <item>Russian</item>
+        <item>Swedish</item>
+        <item>Finnish</item>
+        <item>Romanian</item>
+    </string-array>
+
+
+    <string-array name="server_name_options">
+        <item>Last chosen</item>
+        <item>Free text (Clear)</item>
+        <item>https://5.44.139.39/PureMonitorWCFService/restfulservice.svc/</item>
+        <item>https://5.44.139.39/PureMonitorWCFServiceUDD/restfulservice.svc/</item>
+        <item>https://5.44.139.40/PureMonitorWCFService/restfulservice.svc/</item>
+        <item>https://5.44.139.23/PureMonitorWCFService/restfulservice.svc/</item>
+    </string-array>
+
+    <string-array name="ble_tags_addr_options">
+        <item>Sidst valgte</item>
+        <item>Fritekst (Ryd)</item>
+        <item>F4:B8:5E:B9:AA:2A</item>
+        <item>F4:B8:5E:B9:AD:F3</item>
+        <item>F4:B8:5E:B9:A7:76</item>
+        <item>F4:B8:5E:B9:AD:A8</item>
+    </string-array>
+
+
+    <string-array name="day_of_week_array">
+        <item>Søndag</item>
+        <item>Mandag</item>
+        <item>Tirsdag</item>
+        <item>Onsdag</item>
+        <item>Torsdag</item>
+        <item>Fredag</item>
+        <item>Lørdag</item>
+    </string-array>
+
+    <string-array name="month_array">
+        <item>Januar</item>
+        <item>Februar</item>
+        <item>Marts</item>
+        <item>April</item>
+        <item>May</item>
+        <item>Juni</item>
+        <item>Juli</item>
+        <item>August</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <!-- Home -->
+    <string name="home_text_currently">Aktuelt</string>
+    <string name="home_text_device_unallocated">Enhed ikke allokeret</string>
+    <string name="home_text_can_go_out">Må gerne være ude</string>
+    <string name="home_text_until">"indtil "</string>
+    <string name="home_text_next_from">"Næste: "</string>
+    <string name="home_text_to">" til "</string>
+    <string name="home_text_today">"I dag kl. "</string>
+    <string name="home_text_must_be_at_zone">Skal være ved</string>
+    <string name="home_text_no_new_appointments">Ingen nye aftaler</string>
+    <string name="home_text_proximity_detected">NÆRHED OPDAGET*</string>
+    <string name="home_text_leave_the_area">Forlad området!</string>
+    <string name="home_text_your_officer_has_been_notified">Kriminalforsorgen er underrettet.</string>
+    <string name="home_text_proximity_alert">Nærhedsalarm</string>
+    <string name="home_text_must_stay_at_zone">Skal blive ved</string>
+    <string name="home_text_next_">Næste:</string>
+    <string name="home_text_must_leave_zone">Skal gå</string>
+
+    <!-- Call -->
+    <string name="call_text_supervisors">Ring til Kriminalforsorgen</string>
+    <string name="call_button_your_officer">Medarbejder</string>
+    <string name="call_button_agency_center">Region</string>
+    <string name="call_button_emergency">Nødopkald  </string>
+
+    <!-- Messages -->
+    <string name="messages_button_messages_notifications">Beskeder &amp; Notifikationer</string>
+
+    <!-- Schedule -->
+    <string name="schedule_text_zone_must_be_in" formatted="false">Skal være inde</string>
+    <string name="schedule_text_zone_must_be_out" formatted="false">Skal være ude\n %s</string>
+    <string name="schedule_text_zone_can_go_in" formatted="false">Må gerne være inde\n %s</string>
+    <string name="schedule_text_inspection" formatted="false">Inspection</string>
+
+
+    <!-- General -->
+    <string name="general_button_call">RING</string>
+    <string name="general_button_messages">BESKEDER</string>
+    <string name="general_button_schedule">SKEMA</string>
+    <string name="general_button_map">CARTE</string>
+    <string name="send_button_msg">ENVOYER</string>
+
+    <!-- Dialog -->
+    <string name="dialog_text_biometric_test">BIOMETRISK TEST</string>
+    <string name="dialog_text_new_message">NY BESKED</string>
+    <string name="dialog_text_please_conduct_biometric_test">Aflæs venligst fingeraftryk</string>
+    <string name="dialog_text_swipe_to_start_text">Swipe for at starte test</string>
+    <string name="dialog_text_swipe_to_acknowledge_message">Swipe for at anerkende besked</string>
+    <string name="dialog_text_puretrack_upgrade">PureTrack Opgradering</string>
+    <string name="dialog_text_google_play_services_upgrade">Denne version af PuteTrack kræver en opdatering af Google Play Services. Vent venligst mens PureTrack udfører opdateringen</string>
+    <string name="dialog_text_enter_the_password" formatted="false">Indtast dit password til PureTrack S/N %s</string>
+    <string name="dialog_edittext_enter_password">Indtast password</string>
+    <string name="dialog_button_unlock_settings">Lås password op</string>
+    <string name="dialog_button_from_officer">Fra Kriminalforsorgen</string>
+
+    <!-- AcknowledgeWIthButtonDialog:  Battery Info -->
+    <string name="dialog_ack_battery_title">Batteri-info</string>
+    <string name="dialog_ack_battery_is_charging_msg">Batteri oplader …</string>
+    <string name="dialog_ack_battery_stopped_charging_msg">Opladning af batteriet er stoppet …</string>
+    <string name="dialog_ack_battery_please_charge">Lavt Batteriniveau. Oplad venligst!</string>
+
+    <!-- UnallocateDialog -->
+    <string name="dialog_unallocate_conformation_title">BEKRÆFTELSE</string>
+    <string name="dialog_unallocate_notice_title">BEMÆRK</string>
+    <string name="dialog_unallocate_processing_title">ARBEJDER</string>
+    <string name="dialog_unallocate_confirmation_body" formatted="false">Ønsker du at slukke for fodlænke SN: %s?</string>
+    <string name="dialog_unallocate_notice_stap_close_body">Klip remmen over for at slukke for fodlænken\nAfventer remmen klippes…</string>
+    <string name="dialog_unallocate_notice_stap_open_body">Tryk fortsæt for at slukke for fodlænken</string>
+    <string name="dialog_unallocate_processing_body">Slukker for fodlænken</string>
+    <string name="dialog_unallocate_tag_turned_off_success_body">Fodlænken blev slukket</string>
+    <string name="dialog_unallocate_tag_turned_off_error_body">Slukning af fodlænke fejlede.\nVil du prøve igen?</string>
+    <string name="dialog_unallocate_btn_turn_tag_off">SLUK FOR FODLÆNKE</string>
+    <string name="dialog_unallocate_btn_cancel">ANNULLÉR</string>
+    <string name="dialog_unallocate_btn_continue">FORTSÆT</string>
+    <string name="dialog_unallocate_btn_retry">FORSØG IGEN</string>
+
+    <!-- Enrolment -->
+    <string name="enrolment_text_title_type">Enhedsverificering</string>
+    <string name="enrolment_text_verified">Verificeret</string>
+    <string name="enrolment_text_Verification_failed">Verificering fejlede</string>
+    <string name="enrolment_text_pure_tag" formatted="false">Fodlænke #%s</string>
+    <string name="enrolment_text_pure_beacon" formatted="false">PureBeacon #%s</string>
+    <string name="enrolment_text_test_tag">Tester fodlænke</string>
+    <string name="enrolment_text_test_beacon">Tester Beacon</string>
+    <string name="enrolment_text_pending_enrolment">Afventer tilmelding</string>
+    <string name="enrolment_text_pending_activation">Afventer aktivering</string>
+    <string name="enrolment_text_device_battery_error">Lavt Batteri\n</string>
+    <string name="enrolment_text_device_tag_timeout_error">Fodlænke ikke fundet\n</string>
+    <string name="enrolment_text_device_stap_error">Remmen er åben\n</string>
+    <string name="enrolment_text_device_tag_case_error">Fodlænke cover er åben\n</string>
+    <string name="enrolment_text_device_beacon_timeout_error">Beacon ikke fundet\n</string>
+    <string name="enrolment_text_device_proximity_error">Manipulering af nærhed\n</string>
+    <string name="enrolment_text_device_beacon_case_error">Beacon cover er åben\n</string>
+    <string name="enrolment_text_fingerprint_title">Skan fingeraftryk</string>
+    <string name="enrolment_text_fingerprint_register" formatted="false">%s, Swipe din pegefinger for at registrere et fingeraftryk</string>
+    <string name="enrolment_text_location_title_type">Validering af placering</string>
+    <string name="enrolment_text_location_acquiring_Location">Finder placering</string>
+    <string name="enrolment_text_location_location_acquired">Placering fundet</string>
+    <string name="enrolment_text_location_location_failed">Kunne ikke finde placering</string>
+    <string name="enrolment_text_location_order_message">Gå udenfor eller nær et vindue for at få den mest præcise placering</string>
+    <string name="enrolment_text_location_gps_doesnt_meet_threshold">GPS præcisionen opfylder ikke kravene. Gå venligst udenfor for en mere præcis placering.</string>
+    <string name="enrolment_text_location_network_doesnt_meet_threshold">Nætværkets præcision opfylder ikke kravene. Gå venligst udenfor for en mere præcis placering.</string>
+    <string name="enrolment_text_location_gps_network_doesnt_meet_threshold">GPS og netværkets præcision opfylder ikke kravene. Gå venligst udenfor for en mere præcis placering.</string>
+    <string name="enrolment_text_location_no_gps_point">Intet GPS-punkt modtaget. Tjek venligst indstillingerne på telefonen.</string>
+    <string name="enrolment_text_location_no_network_point">Intet nætværks-punkt modtaget. Tjek venligst indstillingerne på telefonen.</string>
+    <string name="enrolment_text_location_no_gps_network_point">Intet nætværks- eller GPS-punkt modtaget. Tjek venligst indstillingerne på telefonen.</string>
+    <string name="enrolment_text_location_gps_network_points">GPS and netværk punkter modtaget. Satellitens nummer:</string>
+    <string name="enrolment_button_start_enrolment" >Start tilmelding</string>
+    <string name="enrolment_button_back">Tilbage</string>
+    <string name="enrolment_button_next">Næste</string>
+    <string name="enrolment_button_skip">Spring over</string>
+    <string name="enrolment_button_finish">Afslut</string>
+    <string name="enrolment_text_knox_install_title">KNOX Validering</string>
+    <string name="enrolment_text_knox_title_activated">KNOX Aktiveret</string>
+    <string name="enrolment_text_knox_title_activating">Aktiverer KNOX</string>
+    <string name="enrolment_text_knox_title_failed">KNOX Aktivering mislykkedes</string>
+    <string name="enrolment_text_knox_title_inactive">KNOX Inaktiv</string>
+    <string name="enrolment_text_knox_title_detected">KNOX fundet</string>
+    <string name="enrolment_button_knox_install_activate">AKTIVER KNOX</string>
+    <string name="enrolment_button_knox_install_proccess_time">Processen kan tage op til 1 minut.</string>
+    <string name="enrolment_text_knox_install_status_is_active">Validerer at KNOX er aktiveret på enheden</string>
+    <string name="enrolment_text_knox_install_status_detected_active">PureTrack har fastslået at KNOX er aktiveret på enheden</string>
+    <string name="enrolment_text_knox_install_status_detected_not_active">PureTrack har fastslået at KNOX ikke er aktiveret på enheden</string>
+    <string name="enrolment_text_knox_install_status_succeeded">KNOX er nu aktiveret på enheden</string>
+    <string name="enrolment_text_knox_install_status_failed">PureTrack kunne ikke aktivere KNOX på enheden</string>
+    <string name="enrolment_text_knox_install_is_active_title_type">KNOX Opsætning</string>
+    <string name="lockscreen_text_slide_to_unlock">Stryg for at låse op</string>
+    <string name="voice_call">Lydopkald</string>
+    <string name="incoming_call">Indgående opkald…</string>
+    <string name="incoming_call_slide_to_answer"> swipe for at svare</string>
+
+    <!-- OffenderDetails -->
+    <string name="enrollment_text_title_offenderDetails">Klientinformation</string>
+    <string name="enrollment_text_offenderDetails_details">DETALJER</string>
+    <string name="enrollment_text_offenderDetails_primaryPhone">PRIMÆR TELEFON</string>
+    <string name="enrollment_text_offenderDetails_secondaryPhone">SEKUNDÆR TELEFON</string>
+    <string name="enrollment_text_offenderDetails_homeAddr">HJEMMEADRESSE</string>
+    <string name="enrollment_text_offenderDetails_agency">REGION &amp; MEDARBEJDER</string>
+    <string name="wrong_pincode"> Mauvais code </string>
+    <string name="wrong_pincode_deviceLock"> Mauvais code,\n le périphérique est bloqué</string>
+
+    <!-- Launcher -->
+    <string name="launcher_button_show_settings">Vis Indstillinger</string>
+    <string name="launcher_button_shutdown">Sluk</string>
+    <string name="dialog_text_shutdown" formatted="false">Sluk Enheden?</string>
+    <string name="launcher_text_enter_officer_mode">Start admin-tilstand</string>
+    <string name="launcher_text_enter_offender_mode">Start klient-tilstand</string>
+
+    <!--  	 Communication Server Details -->
+    <string name="communication_server_text_url">https://5.44.139.39/PureMonitorWCFService/restfulservice.svc/</string>
+
+</resources>
+

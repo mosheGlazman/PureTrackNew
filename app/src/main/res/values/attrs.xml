@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<attr name="autoScaleTextViewStyle" format="reference" />
+
+    <declare-styleable name="AutoScaleTextView">
+	    <attr name="minTextSize" format="dimension" />
+	</declare-styleable>
+
+	<declare-styleable name="BatteryView">
+		<attr name="Percent" format="integer" />
+		<attr name="Charging" format="boolean" />
+		<attr name="ShowNumbers" format="boolean" />
+	</declare-styleable>
+
+	<declare-styleable name="NetworkView">
+		<attr name="Level" format="integer" />
+		<attr name="Available" format="boolean" />
+	</declare-styleable>
+
+	<declare-styleable name="MobileDataView">
+		<attr name="TypeData" format="enum" >
+			<enum name="G2" value="2"/>
+			<enum name="G3" value="3"/>
+			<enum name="G4" value="4"/>
+			<enum name="G5" value="5"/>
+		</attr>
+		<attr name="AvailableData" format="boolean" />
+
+	</declare-styleable>
+
+	<declare-styleable name="ClockView">
+		<attr name="RefreshMilli" format="integer" />
+		<attr name="Format" format="string" />
+	</declare-styleable>
+
+</resources>

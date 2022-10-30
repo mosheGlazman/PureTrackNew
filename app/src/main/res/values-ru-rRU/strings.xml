@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="day_of_week_array">
+        <item>Воскресенье</item>
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+    </string-array>
+
+    <string-array name="month_array">
+        <item>Январь</item>
+        <item>Февраль</item>
+        <item>Март</item>
+        <item>Апрель</item>
+        <item>Май</item>
+        <item>Июнь</item>
+        <item>Июль</item>
+        <item>Август</item>
+        <item>Сентябрь</item>
+        <item>Октябрь</item>
+        <item>Ноябрь</item>
+        <item>Декабрь</item>
+    </string-array>
+
+
+
+    <!-- Home -->
+    <string name="home_text_currently">В данный момент</string>
+    <string name="home_text_device_unallocated">Устройство не связано с нарушителем</string>
+    <string name="home_text_can_go_out">Вы можете выйти</string>
+    <string name="home_text_until">"до "</string>
+    <string name="home_text_next_from">"Следующий: "</string>
+    <string name="home_text_to">" до "</string>
+    <string name="home_text_today">"Сегодня в "</string>
+    <string name="home_text_must_be_at_zone">"Должен быть в "</string>
+    <string name="home_text_no_new_appointments">Нет новых назначений</string>
+    <string name="home_text_proximity_detected">ОБНАРУЖЕНО СБЛИЖЕНИЕ</string>
+    <string name="home_text_leave_the_area">Покиньте территорию!</string>
+    <string name="home_text_your_officer_has_been_notified">Ваш офицер уведомлен.</string>
+    <string name="home_text_proximity_alert">НЕСАНКЦИОНИРОВАННЫЙ\n ВЫХОД</string>
+    <string name="home_text_must_stay_at_zone">Должен оставаться в зоне</string>
+    <string name="home_text_next_">Следующий:</string>
+
+    <!-- Call -->
+    <string name="call_text_supervisors">ВЫЗОВ ДИСПЕТЧЕРА</string>
+    <string name="call_button_your_officer">Ваш офицер</string>
+    <string name="call_button_agency_center">Полийцеский участок</string>
+
+    <!-- Messages -->
+    <string name="messages_button_messages_notifications">СООБЩЕНИЯ И НАПОМИНАНИЯ</string>
+
+    <!-- Schedule -->
+    <string name="schedule_text_zone_must_be_in" formatted="false">Должен быть в зоне %s</string>
+    <string name="schedule_text_zone_must_be_out" formatted="false">Должен быть вне зоны %s</string>
+    <string name="schedule_text_zone_can_go_in" formatted="false">Может войти в зону %s</string>
+    <string name="schedule_text_inspection" formatted="false">Oсмотр</string>
+
+    <!-- General -->
+    <string name="general_button_call">ВЫЗОВ</string>
+    <string name="general_button_messages">СООБЩЕНИЯ</string>
+    <string name="general_button_schedule">РАСПИСАНИЕ</string>
+    <string name="general_button_map">KAPTA</string>
+    <string name="send_button_msg">Отправить</string>
+
+    <!-- Dialog -->
+    <string name="dialog_text_biometric_test">Биометрический тест</string>
+    <string name="dialog_text_new_message">Новое сообщение</string>
+    <string name="dialog_text_please_conduct_biometric_test">Пожалуйста, пройдите биометрический тест</string>
+    <string name="dialog_text_swipe_to_start_text"> Для того, чтобы начать тест, проведите пальцем по экрану</string>
+    <string name="dialog_text_swipe_to_acknowledge_message">Для того, чтобы подтвердить сообщение, проведите пальцем по экрану</string>
+    <string name="dialog_text_puretrack_upgrade">Обновление PureTrack</string>
+    <string name="dialog_text_enter_the_password" formatted="false">Пожалуйста, введите пароль для PureTrack S/N %s</string>
+    <string name="dialog_edittext_enter_password">Введите пароль</string>
+    <string name="dialog_button_unlock_settings">Разблокировать настройки</string>
+
+    <!-- Launcher -->
+    <string name="launcher_button_show_settings">Показать настройки</string>
+
+    <string-array name="languages_options">
+        <item>English</item>
+        <item>Czech</item>
+        <item>Danish</item>
+        <item>русский</item>
+        <item>Swedish</item>
+        <item>Finnish</item>
+        <item>Romanian</item>
+    </string-array>
+
+    <string name="lockscreen_text_slide_to_unlock">Проведите, чтобы разблокировать</string>
+    <string name="voice_call">ГОЛОСОВОЙ ВЫЗОВ</string>
+    <string name="incoming_call">Входящий голосовой вызов</string>
+    <string name="incoming_call_slide_to_answer"> Для ответа проведите пальцем вправо</string>
+    <string name="wrong_pincode"> Неправильный пин-код </string>
+    <string name="wrong_pincode_deviceLock"> Неверный пин-код,\n устройство заблокировано</string>
+
+</resources>
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_holo_light">
+
+    <include
+        android:id="@+id/fingerprin_title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/enrollment_devices_verification_title" />
+
+    <TextView
+        android:id="@+id/fingerprint_start_enrolment_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fingerprin_title_text"
+        android:layout_margin="20dp"
+        android:text="please swipe your index finger to enroll a fingerprint"
+        android:textColor="@color/grey_darker"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/register_fingerprint_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fingerprint_start_enrolment_text"
+        android:layout_marginLeft="20dp"
+        android:background="@color/lightBlue"
+        android:padding="15dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textSize="18sp"
+        android:text="@string/enrolment_button_start_enrolment"
+        android:textColor="@android:color/white" />
+
+    <include
+        android:id="@+id/bottom_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        layout="@layout/enrollment_bottom_buttons" />
+
+</RelativeLayout>

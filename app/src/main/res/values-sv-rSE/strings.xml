@@ -1,0 +1,229 @@
+<resources>
+    <string name="app_name">PureTrack</string>
+    <string name="stringMustStay">Måste stanna hemma</string>
+    <string name="stringMessagesNoti">MEDDELANDEN &amp; ANMÄLNINGAR</string>
+
+    <!--  Main activity  -->
+    <string name="button_scan">Skanna</string>
+    <string name="bt_not_supported">Bluetooth stöds inte</string>
+    <string name="ble_not_supported">BLE stöds inte</string>
+    <string name="btn_ok">OK</string>
+    <string name="monitoring_suspended">Övervakning pausad</string>
+
+    <!--  Options menu  -->
+
+    <!--  FWUpdate activity  -->
+    <string name="cancel">Annullera</string>
+
+    <string-array name="languages_options">
+        <item>English</item>
+        <item>Czech</item>
+        <item>Danish</item>
+        <item>Russian</item>
+        <item>Swedish</item>
+        <item>Finnish</item>
+        <item>Romanian</item>
+    </string-array>
+
+    <string-array name="server_name_options">
+        <item>Last chosen</item>
+        <item>Free text (Clear)</item>
+        <item>http://puremonitor.supercom.com/PureMonitorWcfService/RestfulService.svc/</item>
+        <item>http://52.24.218.129/PureMonitorwcfservice/RestfulService.svc/</item>
+        <item>http://52.36.179.188/PureMonitorWCFServiceV35/RestfulService.svc/</item>
+        <item>http://52.36.179.188/PureMonitorwcfserviceV62/restfulservice.svc/</item>
+        <item>http://192.116.235.243/PureMonitorWCFServiceDev/RestfulService.svc/</item>
+        <item>http://52.36.179.188/PureMonitorWCFServiceBelgium/RestfulService.svc/</item>
+        <item>https://emsps.justice.cz/PureMonitorWCFService/RestfulService.svc/</item>
+
+
+    </string-array>
+
+
+
+    <string-array name="ble_tags_addr_options">
+        <item>Last chosen</item>
+        <item>Free text (Clear)</item>
+        <item>F4:B8:5E:B9:AA:2A</item>
+        <item>F4:B8:5E:B9:AD:F3</item>
+        <item>F4:B8:5E:B9:A7:76</item>
+        <item>F4:B8:5E:B9:AD:A8</item>
+    </string-array>
+    <string-array name="day_of_week_array">
+        <item>Söndag</item>
+        <item>Måndag</item>
+        <item>Tisdag</item>
+        <item>Onsdag</item>
+        <item>Torsdag</item>
+        <item>Fredag</item>
+        <item>Lördag</item>
+    </string-array>
+    <string-array name="month_array">
+        <item>Januari</item>
+        <item>Februari</item>
+        <item>Mars</item>
+        <item>April</item>
+        <item>Maj</item>
+        <item>Juni</item>
+        <item>Juli</item>
+        <item>Augusti</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <!--  Home  -->
+    <string name="home_text_currently">För närvarande</string>
+    <string name="home_text_device_unallocated">Device Oallokerat</string>
+    <string name="home_text_can_go_out">Kan gå ut</string>
+    <string name="home_text_until">"Fram tills"</string>
+    <string name="home_text_next_from">"Nästa: "</string>
+    <string name="home_text_to">" till "</string>
+    <string name="home_text_today">"Idag vid "</string>
+    <string name="home_text_must_be_at_zone">Måste vara i zon</string>
+    <string name="home_text_no_new_appointments">Inga nya möten</string>
+    <string name="home_text_proximity_detected">NÄRHET DETEKTERAD</string>
+    <string name="home_text_leave_the_area">Lämna området!</string>
+    <string name="home_text_your_officer_has_been_notified">Din officer har blivit anmäld.</string>
+    <string name="home_text_proximity_alert">Närhetsalarm</string>
+    <string name="home_text_must_stay_at_zone">Måste vara i zon</string>
+    <string name="home_text_next_">Nästa:</string>
+    <string name="home_text_must_leave_zone">Måste lämna</string>
+
+    <!--  Call  -->
+    <string name="call_text_supervisors">Ring kontaktperson</string>
+
+    <!--Din kontaktperson-->
+    <string name="call_button_your_officer">Din Tjänsteman</string>
+    <string name="call_button_agency_center">Region kontor</string>
+    <string name="call_button_emergency">Nödläge</string>
+
+    <!--  Messages  -->
+    <string name="messages_button_messages_notifications">Meddelanden och Notifikationer</string>
+
+    <!--  Schedule  -->
+    <string name="schedule_text_zone_must_be_in" formatted="false">Måste vara i</string>
+    <string name="schedule_text_zone_must_be_out" formatted="false">Måste vara ute\n %s</string>
+    <string name="schedule_text_zone_can_go_in" formatted="false">Kan gå in\n %s</string>
+    <string name="schedule_text_inspection" formatted="false">Inspektion</string>
+
+    <!--  General  -->
+    <string name="general_button_call">RING UPP</string>
+    <string name="general_button_messages">Medd.</string>
+    <string name="general_button_schedule">SCHEMA</string>
+    <string name="general_button_map">KARTA</string>
+    <string name="send_button_msg">SKICKA</string>
+
+    <!--  Dialog  -->
+    <string name="dialog_text_biometric_test">BIOMETRISK PROV</string>
+    <string name="dialog_text_new_message">NYTT MEDDELANDE</string>
+    <string name="dialog_text_please_conduct_biometric_test">Utför vänligen biometriska test</string>
+    <string name="dialog_text_swipe_to_start_text">Dra för att starta testet</string>
+    <string name="dialog_text_swipe_to_acknowledge_message">Dra för att bekräfta meddelandet</string>
+    <string name="dialog_text_all_apk_update">Den här versionen av PureTrack kräver en uppdatering för::\n %s \n\nVänta vänligen medan PureTrack utför uppdateringen …</string>
+    <string name="dialog_text_puretrack_upgrade">PureTrack Uppgradering</string>
+    <string name="dialog_text_google_play_services_upgrade">Den här versionen av PureTrack kräver en uppdatering i Google Play Services. Vänta vänligen medan PureTrack utför uppdateringen</string>
+    <string name="dialog_text_enter_the_password" formatted="false">Ange vänligen lösenord för PureTrack S/N %s</string>
+    <string name="dialog_edittext_enter_password">Ange lösenord</string>
+    <string name="dialog_button_unlock_settings">Lås upp lösenordet</string>
+    <string name="dialog_button_from_officer">Från kontaktperson</string>
+
+    <!--  AcknowledgeWIthButtonDialog:  Battery Info  -->
+    <string name="dialog_ack_battery_title">Batteri Information</string>
+    <string name="dialog_ack_battery_is_charging_msg">Batteriet laddar …</string>
+    <string name="dialog_ack_battery_stopped_charging_msg">Batteriet slutade ladda …</string>
+    <string name="dialog_ack_battery_please_charge">Batteriet är lågt. Ladda vänligen!</string>
+
+    <!--  UnallocateDialog  -->
+    <string name="dialog_unallocate_conformation_title">BEKRÄFTELSE</string>
+    <string name="dialog_unallocate_notice_title">LÄGGA MÄRKE TILL</string>
+    <string name="dialog_unallocate_processing_title">BEHANDLING</string>
+    <string name="dialog_unallocate_confirmation_body" formatted="false">Vill du stänga av PureTag S/N: %s?</string>
+    <string name="dialog_unallocate_notice_stap_close_body">För att stänga av PureTag, klipp av remmen\nAvvakta avstängning</string>
+    <string name="dialog_unallocate_notice_stap_open_body">För att stänga av PureTag, tryck på Fortsätt</string>
+    <string name="dialog_unallocate_processing_body">Stäng av fotbojan</string>
+    <string name="dialog_unallocate_tag_turned_off_success_body">Fotbojan är avstängd</string>
+    <string name="dialog_unallocate_tag_turned_off_error_body">Avstängning fotboja har misslyckats.\nVill du försöka igen?</string>
+    <string name="dialog_unallocate_btn_turn_tag_off">Stäng av fotboja</string>
+    <string name="dialog_unallocate_btn_cancel">AVBRYT</string>
+    <string name="dialog_unallocate_btn_continue">FORTSÄTT</string>
+    <string name="dialog_unallocate_btn_retry">FÖRSÖK IGEN</string>
+
+    <!--  Enrolment  -->
+    <string name="enrolment_text_title_type">Verifiera enhet</string>
+    <string name="enrolment_text_verified">Verifierad</string>
+    <string name="enrolment_text_Verification_failed">Verifiering misslyckades</string>
+    <string name="enrolment_text_pure_tag" formatted="false">PureTag #%s</string>
+    <string name="enrolment_text_pure_beacon" formatted="false">PureBeacon #%s</string>
+    <string name="enrolment_text_test_tag">Testar PureTag</string>
+    <string name="enrolment_text_test_beacon">Testar Beacon</string>
+    <string name="enrolment_text_pending_enrolment">Väntar på registrering</string>
+    <string name="enrolment_text_pending_activation">Väntar på aktivering</string>
+    <string name="enrolment_text_device_battery_error">Låg batterinivå\n</string>
+    <string name="enrolment_text_device_tag_timeout_error">Fotbojan hittades inte\n</string>
+    <string name="enrolment_text_device_stap_error">Remmen är öppen\n</string>
+    <string name="enrolment_text_device_tag_case_error">Fotbojans skal är öppet\n</string>
+    <string name="enrolment_text_device_beacon_timeout_error">Beacon hittades inte\n</string>
+    <string name="enrolment_text_device_proximity_error">Otillåtet Närhetsändring\n</string>
+    <string name="enrolment_text_device_beacon_case_error">Skal är öppet\n</string>
+    <string name="enrolment_text_fingerprint_title">Fingeravtrycks Skan</string>
+    <string name="enrolment_text_fingerprint_register" formatted="false">%s, peka vänligen pekfingret för att registrera ett fingeravtryck</string>
+    <string name="enrolment_text_location_title_type">Validerar plats</string>
+    <string name="enrolment_text_location_acquiring_Location">Letar efter positionering</string>
+    <string name="enrolment_text_location_location_acquired">Positionering hittad</string>
+    <string name="enrolment_text_location_location_failed">Positionering hittades ej</string>
+    <string name="enrolment_text_location_order_message">För bästa läge gå utomhus eller nära ett fönster</string>
+    <string name="enrolment_text_location_gps_doesnt_meet_threshold">GPS-noggrannhet uppfyller inte nödvändig tröskel. Vänligen gå utomhus för bättre plats.</string>
+    <string name="enrolment_text_location_network_doesnt_meet_threshold">Nätverksnoggrannheten uppfyller inte den nödvändiga tröskeln. Vänligen gå utomhus för bättre plats.</string>
+    <string name="enrolment_text_location_gps_network_doesnt_meet_threshold">GPS- och Nätverksnoggrannhet uppfyller inte den nödvändiga tröskeln. Vänligen gå utomhus för bättre plats.</string>
+    <string name="enrolment_text_location_no_gps_point">Ingen GPS-position mottagen. Kontrollera dina telefoninställningar.</string>
+    <string name="enrolment_text_location_no_network_point">Ingen nätverkstäckning. Kontrollera dina telefoninställningar.</string>
+    <string name="enrolment_text_location_no_gps_network_point">Ingen GPS eller Nätverksteckning mottagen. Kontrollera dina telefoninställningar.</string>
+    <string name="enrolment_text_location_gps_network_points">GPS och Nätverkstäckning mottagna. Satellitnummer:</string>
+    <string name="enrolment_button_start_enrolment">Starta Inskrivning</string>
+    <string name="enrolment_button_back">Tillbaka</string>
+    <string name="enrolment_button_next">Nästa</string>
+    <string name="enrolment_button_skip">Hoppa</string>
+    <string name="enrolment_button_finish">Avsluta</string>
+    <string name="enrolment_text_knox_install_title">KNOX-validering</string>
+    <string name="enrolment_text_knox_title_activated">KNOX aktiverad</string>
+    <string name="enrolment_text_knox_title_activating">Aktivera KNOX</string>
+    <string name="enrolment_text_knox_title_failed">KNOX Aktivering Misslyckades</string>
+    <string name="enrolment_text_knox_title_inactive">KNOX Inaktiv</string>
+    <string name="enrolment_text_knox_title_detected">KNOX Upptäckt</string>
+    <string name="enrolment_button_knox_install_activate">AKTIVERA KNOX</string>
+    <string name="enrolment_button_knox_install_proccess_time">Proccessen kan ta upp till 1 minut</string>
+    <string name="enrolment_text_knox_install_status_is_active">Validerar om KNOX är aktiv på enheten</string>
+    <string name="enrolment_text_knox_install_status_detected_active">PureTrack upptäckte att KNOX är aktiv på enheten</string>
+    <string name="enrolment_text_knox_install_status_detected_not_active">PureTrack upptäckte att KNOX inte är aktiv på enheten</string>
+    <string name="enrolment_text_knox_install_status_succeeded">KNOX är nu aktiv på enheten</string>
+    <string name="enrolment_text_knox_install_status_failed">PureTrack kunde inte aktivera KNOX på enheten</string>
+    <string name="enrolment_text_knox_install_is_active_title_type">KNOX-inställning</string>
+    <string name="voice_call">Röstsamtal</string>
+    <string name="incoming_call">Inkommande röstsamtal…</string>
+    <string name="incoming_call_slide_to_answer">glida för att svara</string>
+
+    <!--  OffenderDetails  -->
+    <string name="enrollment_text_title_offenderDetails">Förbudspersonens detaljer</string>
+    <string name="enrollment_text_offenderDetails_details">INFORMATION</string>
+    <string name="enrollment_text_offenderDetails_primaryPhone">PRIMÄR TELEFON</string>
+    <string name="enrollment_text_offenderDetails_secondaryPhone">SEKUNDÄR TELEFON</string>
+    <string name="enrollment_text_offenderDetails_homeAddr">Stad</string>
+    <string name="enrollment_text_offenderDetails_agency">Region</string>
+    <string name="lockscreen_text_slide_to_unlock">Dra för att låsa upp</string>
+    <string name="wrong_pincode"> Fel PIN-kod </string>
+    <string name="wrong_pincode_deviceLock"> Fel PIN-kod,\n Enheten är blockerad </string>
+
+    <!--  Launcher  -->
+    <string name="launcher_button_show_settings">Visa inställningar</string>
+    <string name="launcher_button_shutdown">Avstängning</string>
+    <string name="dialog_text_shutdown" formatted="false">Avstängningsenhet?</string>
+    <string name="launcher_text_enter_officer_mode">Gå in i Officer Mode</string>
+    <string name="launcher_text_enter_offender_mode">Gå in i Offender Mode</string>
+
+    <!--  	 Communication Server Details -->
+    <string name="communication_server_text_url">http://emsps.justice.cz/PureMonitorwcfservice/RestfulService.svc/</string>
+
+</resources>
+

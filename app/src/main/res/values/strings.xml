@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PureTrack</string>
+    <string name="send">Send</string>
+    <string name="stringMustStay">Must stay home</string>
+    <string name="stringMessagesNoti">MESSAGES &amp; NOTIFICATIONS</string>
+
+
+    <!-- Main activity -->
+    <string name="button_scan">Scan</string>
+    <string name="bt_not_supported">Bluetooth is not supported</string>
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="btn_ok">OK</string>
+    <string name="monitoring_suspended">Monitoring Suspended</string>
+
+    <!-- Options menu -->
+
+    <!-- FWUpdate activity -->
+    <string name="cancel">Cancel</string>
+
+    <string-array name="languages_options">
+        <item>English</item>
+        <item>Czech</item>
+        <item>Danish</item>
+        <item>Russian</item>
+        <item>Swedish</item>
+        <item>Finnish</item>
+        <item>Romanian</item>
+    </string-array>
+
+    <string-array name="counties_shortcut">
+        <item>us</item>
+        <item>cz</item>
+        <item>dk</item>
+        <item>ru</item>
+        <item>sv</item>
+        <item>fi</item>
+        <item>ro</item>
+    </string-array>
+
+    <string-array name="server_name_options">
+        <item>Senast vald</item>
+        <item>Fri text (Rens)</item>
+        <item>https://35.156.183.207/PureMonitorWCFServiceMojSat/RestfulService.svc/</item>
+        <item>https://35.156.183.207/PureMonitorWCFServiceUSNew/RestfulService.svc/</item>
+        <item>https://devicesfinland.supercom.com/PureMonitorWCFService/RestfulService.svc/</item>
+        <item>https://10.1.1.40/spc.puremonitor.api.us.new/RestfulService.svc/</item>
+        <item>https://52.32.241.136/PureMonitorWCFService/RestfulService.svc/</item>
+        <item>https://puremonitordemo.supercom.com/PureMonitorWCFService/RestfulService.svc/</item>
+        <item>https://emsdevice-qat.om.fi/PureMonitorWCFService/RestfulService.svc/</item>
+
+    </string-array>
+
+
+    <string-array name="ble_tags_addr_options">
+        <item>Last chosen</item>
+        <item>Free text (Clear)</item>
+        <item>F4:B8:5E:B9:AA:2A</item>
+        <item>F4:B8:5E:B9:AD:F3</item>
+        <item>F4:B8:5E:B9:A7:76</item>
+        <item>F4:B8:5E:B9:AD:A8</item>
+    </string-array>
+
+
+    <string-array name="day_of_week_array">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+    <string-array name="month_array">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <!-- Home -->
+    <string name="home_text_currently">Currently</string>
+    <string name="home_text_device_unallocated">Device Unallocated</string>
+    <string name="home_text_can_go_out">Can go out</string>
+    <string name="home_text_until">"until "</string>
+    <string name="home_text_next_from">"Next: "</string>
+    <string name="home_text_to">" to "</string>
+    <string name="home_text_today">"Today at "</string>
+    <string name="home_text_must_be_at_zone">Must be at</string>
+    <string name="home_text_no_new_appointments">No new appointments</string>
+    <string name="home_text_proximity_detected">PROXIMITY DETECTED</string>
+    <string name="home_text_leave_the_area">Leave the area!</string>
+    <string name="home_text_your_officer_has_been_notified">Your officer has been notified.</string>
+    <string name="home_text_proximity_alert">Proximity Alert</string>
+    <string name="home_text_must_stay_at_zone">Must stay at</string>
+    <string name="entered_buffer_zone">Entered buffer zone</string>
+    <string name="home_text_next_">Next:</string>
+    <string name="home_text_must_leave_zone">Must leave</string>
+
+
+    <!-- Call -->
+    <string name="call_text_supervisors">Call supervisors</string>
+    <string name="call_button_your_officer">Your Officer</string>
+    <string name="call_button_agency_center">Agency Center</string>
+    <string name="call_button_emergency">Emergency  </string>
+
+
+    <!-- Messages -->
+    <string name="messages_button_messages_notifications">Messages &amp; Notifications</string>
+
+
+    <!-- Schedule -->
+    <string name="schedule_text_zone_must_be_in" formatted="false">Must be at</string>
+    <string name="schedule_text_zone_must_be_out" formatted="false">Must Be Out\n %s</string>
+    <string name="schedule_text_zone_can_go_in" formatted="false">Can Go In\n %s</string>
+    <string name="schedule_text_inspection" formatted="false">Inspection</string>
+
+
+    <!-- General -->
+    <string name="general_button_call">CALL</string>
+    <string name="general_button_messages">MESSAGES</string>
+    <string name="general_button_schedule">SCHEDULE</string>
+    <string name="general_button_map">MAP</string>
+    <string name="send_button_msg">SEND</string>
+
+
+    <!-- Dialog -->
+    <string name="dialog_text_biometric_test">BIOMETRIC TEST</string>
+    <string name="dialog_text_new_message">NEW MESSAGE</string>
+    <string name="dialog_text_please_conduct_biometric_test">Please conduct biometric test</string>
+    <string name="dialog_text_swipe_to_start_text">Swipe to start test</string>
+    <string name="dialog_text_swipe_to_acknowledge_message">Swipe to acknowledge message</string>
+    <string name="dialog_text_puretrack_upgrade">PureTrack Upgrade</string>
+    <string name="dialog_text_all_apk_update">This version of PureTrack requires an update for the:\n %s \n\nPlease wait while PureTrack performs the update…</string>
+    <string name="dialog_text_google_play_services_upgrade">This version of PureTrack requires an update to Google Play Services. Please wait while PureTrack performs the update</string>
+    <string name="dialog_text_enter_the_password" formatted="false">Please enter password for PureTrack S/N %s</string>
+    <string name="dialog_edittext_enter_password">Enter password</string>
+    <string name="dialog_button_unlock_settings">Unlock password</string>
+    <string name="dialog_button_from_officer">From Officer</string>
+    <string name="custom_dialog_swipe_to_acknowledge_message">Swipe to acknowledge message</string>
+
+
+    <!-- AcknowledgeWIthButtonDialog:  Battery Info -->
+    <string name="dialog_ack_battery_title">Battery Information</string>
+    <string name="dialog_ack_battery_is_charging_msg">The Battery is Charging …</string>
+    <string name="dialog_ack_battery_stopped_charging_msg">The Battery stopped Charging …</string>
+    <string name="dialog_ack_battery_please_charge">The Battery is Low. Please charge!</string>
+
+    <!-- UnallocateDialog -->
+    <string name="dialog_unallocate_conformation_title">CONFIRMATION</string>
+    <string name="dialog_unallocate_notice_title">NOTICE</string>
+    <string name="dialog_unallocate_processing_title">PROCESSING</string>
+    <string name="dialog_unallocate_confirmation_body" formatted="false">Would you like to turn off PureTag SN: %s?</string>
+    <string name="dialog_unallocate_notice_stap_close_body">To turn off the PureTag, first cut the strap\nWaiting for strap cut…</string>
+    <string name="dialog_unallocate_notice_stap_open_body">To turn off the PureTag, please press continue</string>
+    <string name="dialog_unallocate_processing_body">Turning the tag off…</string>
+    <string name="dialog_unallocate_tag_turned_off_success_body">The tag was turned off.</string>
+    <string name="dialog_unallocate_tag_turned_off_error_body">Tag turn off has failed.\nWould you like to try again?</string>
+    <string name="dialog_unallocate_btn_turn_tag_off">TURN TAG OFF</string>
+    <string name="dialog_unallocate_btn_cancel">CANCEL</string>
+    <string name="dialog_unallocate_btn_continue">CONTINUE</string>
+    <string name="dialog_unallocate_btn_retry">RETRY</string>
+
+    <!-- Enrolment -->
+    <string name="enrolment_text_title_type">Device Verification</string>
+    <string name="enrolment_text_verified">Verified</string>
+    <string name="enrolment_text_Verification_failed">Verification failed</string>
+    <string name="enrolment_text_pure_tag" formatted="false">PureTag #%s</string>
+    <string name="enrolment_text_pure_beacon" formatted="false">PureBeacon #%s</string>
+    <string name="enrolment_text_test_tag">Testing Tag</string>
+    <string name="enrolment_text_test_beacon">Testing Beacon</string>
+    <string name="enrolment_text_pending_enrolment">Pending Enrollment</string>
+    <string name="enrolment_text_pending_activation">Pending Activation</string>
+    <string name="enrolment_text_device_battery_error">Low Battery\n</string>
+    <string name="enrolment_text_device_tag_timeout_error">Tag not Found\n</string>
+    <string name="enrolment_text_device_stap_error">Tag Strap is Open\n</string>
+    <string name="enrolment_text_device_tag_case_error">Tag Case is Open\n</string>
+    <string name="enrolment_text_device_beacon_timeout_error">Beacon not Found\n</string>
+    <string name="enrolment_text_device_proximity_error">Proximity Tamper\n</string>
+    <string name="enrolment_text_device_beacon_case_error">Case is Open\n</string>
+    <string name="enrolment_text_fingerprint_title">Fingerprint Scan</string>
+    <string name="enrolment_text_fingerprint_register" formatted="false">%s, Please swipe your index finger to enroll a fingerprint</string>
+    <string name="enrolment_text_location_title_type">Location Validation</string>
+    <string name="enrolment_text_location_acquiring_Location">Acquiring Location</string>
+    <string name="enrolment_text_location_location_acquired">Location Acquired</string>
+    <string name="enrolment_text_location_location_failed">Failed to Acquire Location</string>
+    <string name="enrolment_text_location_order_message">For best location go outdoors or near a window</string>
+    <string name="enrolment_text_location_gps_doesnt_meet_threshold">GPS accuracy doesn\'t meet required threshold. Please go outdoors for better location.</string>
+    <string name="enrolment_text_location_network_doesnt_meet_threshold">Network accuracy doesn\'t meet required threshold.Please go outdoors for better location.</string>
+    <string name="enrolment_text_location_gps_network_doesnt_meet_threshold">GPS and Network accuracy don\'t meet the required threshold. Please go outdoors for better location.</string>
+    <string name="enrolment_text_location_no_gps_point">No GPS point received. Please check your phone settings.</string>
+    <string name="enrolment_text_location_no_network_point">No Network point received. Please check your phone settings.</string>
+    <string name="enrolment_text_location_no_gps_network_point">No GPS or Network point received. Please check your phone settings.</string>
+    <string name="enrolment_text_location_gps_network_points">GPS and Network points received. Satellites number:</string>
+    <string name="enrolment_button_start_enrolment">Start Enrollment</string>
+    <string name="enrolment_button_back">Back</string>
+    <string name="enrolment_button_next">Next</string>
+    <string name="enrolment_button_skip">Skip</string>
+    <string name="enrolment_button_finish">Finish</string>
+    <string name="enrolment_text_knox_install_title">KNOX Validation</string>
+    <string name="enrolment_text_knox_title_activated">KNOX Activated</string>
+    <string name="enrolment_text_knox_title_activating">Activating KNOX</string>
+    <string name="enrolment_text_knox_title_failed">KNOX Activation Failed</string>
+    <string name="enrolment_text_knox_title_inactive">KNOX Inactive</string>
+    <string name="enrolment_text_knox_title_detected">KNOX Detected</string>
+    <string name="enrolment_button_knox_install_activate">ACTIVATE KNOX</string>
+    <string name="enrolment_button_knox_install_proccess_time">The proccess might take up to 1 minute</string>
+    <string name="enrolment_text_knox_install_status_is_active">Validating if KNOX is active on the device</string>
+    <string name="enrolment_text_knox_install_status_detected_active">PureTrack detected that KNOX is active on the device</string>
+    <string name="enrolment_text_knox_install_status_detected_not_active">PureTrack detected that KNOX is not active on the device</string>
+    <string name="enrolment_text_knox_install_status_succeeded">KNOX is now active on the device</string>
+    <string name="enrolment_text_knox_install_status_failed">PureTrack wasn\'t able to activate KNOX on the device</string>
+    <string name="enrolment_text_knox_install_is_active_title_type">KNOX Setup</string>
+    <string name="lockscreen_text_slide_to_unlock">Swipe to unlock</string>
+    <string name="voice_call">Voice Call</string>
+    <string name="incoming_call">Incoming voice call…</string>
+    <string name="incoming_call_slide_to_answer"> slide to answer</string>
+    <string name="wrong_pincode"> Wrong Pincode</string>
+    <string name="wrong_pincode_deviceLock"> Wrong Pincode,\n Device Is Blocked</string>
+
+
+    <!-- OffenderDetails -->
+    <string name="enrollment_text_title_offenderDetails">Offender Details</string>
+    <string name="enrollment_text_offenderDetails_details">DETAILS</string>
+    <string name="enrollment_text_offenderDetails_primaryPhone">PRIMARY PHONE</string>
+    <string name="enrollment_text_offenderDetails_secondaryPhone">SECONDARY PHONE</string>
+    <string name="enrollment_text_offenderDetails_homeAddr">HOME ADDRESS</string>
+    <string name="enrollment_text_offenderDetails_agency">AGENCY &amp; OFFICER</string>
+
+
+    <!-- Launcher -->
+    <string name="launcher_button_show_settings">Show Settings</string>
+    <string name="launcher_button_shutdown">Shutdown</string>
+    <string name="dialog_text_shutdown" formatted="false">Shutdown Device?</string>
+    <string name="launcher_text_enter_officer_mode">Enter Officer Mode</string>
+    <string name="launcher_text_enter_offender_mode">Enter Offender Mode</string>
+    <string name="launcher_text_enter_offender_flight_mode">Enter Offender Flight Mode</string>
+
+    <!-- Google play -->
+    <string name="google_play_text_upgrade_start_update">Start Google Play Update</string>
+    <string name="google_play_text_upgrade_start_out_of_date">Google play services version is out of date</string>
+
+    <!--  	 Communication Server Details -->
+    <string name="communication_server_text_url">http://puremonitor.supercom.com/PureMonitorWcfService/RestfulService.svc/</string>
+    <string name="open_dialer">Open Dialer</string>
+    <string name="open_settings">Open Settings</string>
+
+    <!--    On Demand Photo Dialog-->
+    <string name="message_dialog_on_demand_photo_message">On demand photo message</string>
+    <string name="message_dialog_swipe_to_take_a_photo">Swipe to take a photo</string>
+    <string name="dialog_photo_on_demand_error_sending_image">Failed to sent image, please re-try</string>
+    <string name="dialog_photo_on_demand_photo_saved">Photo saved</string>
+    <string name="retry">Retry</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="magnetics_calibrate">Magnetics calibrate</string>
+
+    <string name="service_cycle_title" >Cycle service</string>
+    <string name="service_cycle_message" >Cycle service is running</string>
+    <string name="service_location_title" >Location service</string>
+    <string name="service_location_message" >Location service is running</string>
+    <string name="service_bluetooth_title" >Bluetooth service</string>
+    <string name="service_bluetooth_message" >Bluetooth service is running</string>
+    <string name="ticker_text">ticket</string>
+</resources>
+

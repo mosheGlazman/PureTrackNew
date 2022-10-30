@@ -1,0 +1,246 @@
+<resources>
+    <string name="app_name">PureTrack</string>
+    <string name="stringMustStay">Nutno zůstat doma</string>
+    <string name="stringMessagesNoti">ZPRÁVY A NOTIFIKACE</string>
+
+
+    <!--  Main activity  -->
+    <string name="button_scan">Skenování</string>
+    <string name="bt_not_supported">Bluetooth není podporován</string>
+    <string name="ble_not_supported">BT low energy není podporován</string>
+    <string name="btn_ok">OK</string>
+
+
+    <!--  Options menu  -->
+
+    <!--  FWUpdate activity  -->
+    <string name="cancel">Zrušit</string>
+    <string name="wrong_pincode"> Chybný kód PIN </string>
+    <string name="wrong_pincode_deviceLock"> Chybný kód PIN,\n zařízení je blokováno</string>
+
+    <string-array name="languages_options">
+        <item>English</item>
+        <item>Czech</item>
+        <item>Danish</item>
+        <item>Russian</item>
+        <item>Swedish</item>
+        <item>Finnish</item>
+        <item>Romanian</item>
+    </string-array>
+
+    <string-array name="server_name_options">
+        <item>Poslední vybraný</item>
+        <item>Volný text (Clear)</item>
+        <item>
+https://puremonitor.supercom.com/PureMonitorWcfService/RestfulService.svc/
+</item>
+        <item>
+https://52.24.218.129/PureMonitorwcfservice/RestfulService.svc/
+</item>
+        <item>
+https://52.36.179.188/PureMonitorwcfserviceDemo/restfulservice.svc/
+</item>
+        <item>
+https://192.116.235.243/PureMonitorWCFServiceDev/RestfulService.svc/
+</item>
+        <item>
+https://52.36.179.188/PureMonitorWCFServiceBelgium/RestfulService.svc/
+</item>
+        <item>https://78.31.25.50/PureMonitorwcfservice/RestfulService.svc/</item>
+        <item>https://78.31.25.50/PureMonitorwcfservice/RestfulService.svc/</item>
+        <item>https://emspssk.justice.cz/PureMonitorwcfservice/RestfulService.svc/</item>
+        <item>https://emspssk.justice.cz/PureMonitorwcfservice/RestfulService.svc/</item>
+        <item>https://194.213.41.140/PureMonitorwcfservice/RestfulService.svc/</item>
+        <item>https://194.213.41.140/PureMonitorwcfservice/RestfulService.svc/</item>
+        <item>https://emspstst.justice.cz/PureMonitorwcfservice/RestfulService.svc/</item>
+        <item>https://emspstst.justice.cz/PureMonitorwcfservice/RestfulService.svc/</item>
+        <item>https://194.213.41.136/PureMonitorwcfservice/RestfulService.svc/</item>
+        <item>https://194.213.41.136/PureMonitorwcfservice/RestfulService.svc/</item>
+        <item>https://emsps.justice.cz/PureMonitorwcfservice/RestfulService.svc/</item>
+        <item>https://emsps.justice.cz/PureMonitorwcfservice/RestfulService.svc/</item>
+        <item>https://194.213.41.132/PureMonitorwcfservice/RestfulService.svc/</item>
+        <item>https://194.213.41.132/PureMonitorwcfservice/RestfulService.svc/</item>
+
+
+    </string-array>
+
+    <string-array name="day_of_week_array">
+        <item>Neděle</item>
+        <item>Pondělí</item>
+        <item>Úterý</item>
+        <item>Středa</item>
+        <item>Čtvrtek</item>
+        <item>Pátek</item>
+        <item>Sobota</item>
+    </string-array>
+    <string-array name="month_array">
+        <item>Leden</item>
+        <item>Únor</item>
+        <item>Březen</item>
+        <item>Duben</item>
+        <item>Květen</item>
+        <item>Červen</item>
+        <item>Červenec</item>
+        <item>Srpen</item>
+        <item>Září</item>
+        <item>Říjen</item>
+        <item>Listopad</item>
+        <item>Prosinec</item>
+    </string-array>
+
+    <!--  Home  -->
+    <string name="home_text_currently">Současný</string>
+    <string name="home_text_device_unallocated">Zařízení není přiřazeno</string>
+    <string name="home_text_can_go_out">Možno jít ven</string>
+    <string name="home_text_until">"do "</string>
+    <string name="home_text_next_from">"Další: "</string>
+    <string name="home_text_to">" do "</string>
+    <string name="home_text_today">"Dnes v "</string>
+    <string name="home_text_must_be_at_zone">Nutno být v</string>
+    <string name="home_text_no_new_appointments">Žádná nová povolení</string>
+    <string name="home_text_proximity_detected">VZDÁLENOST DETEKOVÁNA</string>
+    <string name="home_text_leave_the_area">Opustit oblast!</string>
+    <string name="home_text_your_officer_has_been_notified">Pověřená osoba byla upozorněna.</string>
+    <string name="home_text_proximity_alert">Upozornění vzdálenosti</string>
+    <string name="home_text_must_stay_at_zone">Nutno zůstat v</string>
+    <string name="home_text_next_">Další:</string>
+    <string name="home_text_must_leave_zone">Nutno opustit oblast</string>
+
+    <!--  Call  -->
+    <string name="call_text_supervisors">Zavolat dohledu</string>
+    <string name="call_button_your_officer">Zavolat pověřené osobě</string>
+    <string name="call_button_agency_center">Zavolat agenturnímu centru</string>
+    <string name="call_button_emergency">Zavolat záchranné složky</string>
+
+    <!--  Messages  -->
+    <string name="messages_button_messages_notifications">Zprávy a upozornění</string>
+
+    <!--  Schedule  -->
+    <string name="schedule_text_zone_must_be_in" formatted="false">Nutno být v</string>
+    <string name="schedule_text_zone_must_be_out" formatted="false">Nutno být mimo\n %s</string>
+    <string name="schedule_text_zone_can_go_in" formatted="false">Nutno jít do\n %s</string>
+    <string name="schedule_text_inspection" formatted="false">Inspection</string>
+
+    <!--  General  -->
+    <string name="general_button_call">HOVOR</string>
+    <string name="general_button_messages">ZPRÁVA</string>
+    <string name="general_button_schedule">ROZVRH</string>
+    <string name="general_button_map">MAPA</string>
+    <string name="send_button_msg">POSLAT</string>
+
+    <!--  Dialog  -->
+    <string name="dialog_text_biometric_test">BIOMETRICKÝ TEST</string>
+    <string name="dialog_text_new_message">NOVÁ ZPRÁVA</string>
+    <string name="dialog_text_please_conduct_biometric_test">Proveďte prosím biometrický test</string>
+    <string name="dialog_text_swipe_to_start_text">Táhněte prstem pro začátek testu</string>
+    <string name="dialog_text_swipe_to_acknowledge_message">Táhněte prstem pro potvrzení zprávy</string>
+    <string name="dialog_text_puretrack_upgrade">PureTrack Upgrade</string>
+    <string name="dialog_text_google_play_services_upgrade">
+Tato verze PureTrack požaduje aktualizaci přes Google Play Services. Počkejte prosím do skončení aktualizace
+</string>
+    <string name="dialog_text_enter_the_password" formatted="false">Vložte heslo pro PureTrack\nS/N %s</string>
+    <string name="dialog_edittext_enter_password">Vložte heslo</string>
+    <string name="dialog_button_unlock_settings">Odemkněte nastavení</string>
+
+    <!--  AcknowledgeWIthButtonDialog:  Battery Info  -->
+    <string name="dialog_ack_battery_title">Informace o stavu baterie</string>
+    <string name="dialog_ack_battery_is_charging_msg">Baterie se nabíjí …</string>
+    <string name="dialog_ack_battery_stopped_charging_msg">Konec nabíjení baterie …</string>
+    <string name="dialog_ack_battery_please_charge">Nízký stav baterie. Začni prosím nabíjet!</string>
+
+    <!--  UnallocateDialog  -->
+    <string name="dialog_unallocate_conformation_title">POTVRZENÍ</string>
+    <string name="dialog_unallocate_notice_title">OZNÁMENÍ</string>
+    <string name="dialog_unallocate_processing_title">ZPRACOVÁVÁ SE</string>
+    <string name="dialog_unallocate_confirmation_body" formatted="false">Chcete vypnout PureTag SN: %s?</string>
+    <string name="dialog_unallocate_notice_stap_close_body">
+Pro vypnutí PureTag, přeřízněte popruh \n Čekejte na přeříznutí popruhu…
+</string>
+    <string name="dialog_unallocate_notice_stap_open_body">Pro vypnutí PureTag, stiskněte pokračovat</string>
+    <string name="dialog_unallocate_processing_body">Vypínání značky…</string>
+    <string name="dialog_unallocate_tag_turned_off_success_body">Značka byla vypnuta.</string>
+    <string name="dialog_unallocate_tag_turned_off_error_body">
+Vypnutí značky selhalo.\n Chcete zkusit znovu?
+</string>
+    <string name="dialog_unallocate_btn_turn_tag_off">ZNAČKA BYLA VYPNUTA</string>
+    <string name="dialog_unallocate_btn_cancel">ZRUŠIT</string>
+    <string name="dialog_unallocate_btn_continue">POKRAČOVAT</string>
+    <string name="dialog_unallocate_btn_retry">ZNOVU</string>
+
+
+    <!--  Enrolment  -->
+    <string name="enrolment_text_title_type">Potvrzení zařízení</string>
+    <string name="enrolment_text_verified">Potvrzeno</string>
+    <string name="enrolment_text_Verification_failed">Neúspěšné potvrzení</string>
+    <string name="enrolment_text_pure_tag" formatted="false">PureTag #%s</string>
+    <string name="enrolment_text_pure_beacon" formatted="false">PureBeacon #%s</string>
+    <string name="enrolment_text_test_tag">Testování značky</string>
+    <string name="enrolment_text_test_beacon">Testování světelného znamení</string>
+    <string name="enrolment_text_pending_enrolment">Probíhá zápis</string>
+    <string name="enrolment_text_pending_activation">Probíhá aktivace</string>
+    <string name="enrolment_text_device_battery_error">Nízká baterie\n</string>
+    <string name="enrolment_text_device_tag_timeout_error">Značka nenalezena\n</string>
+    <string name="enrolment_text_device_stap_error">Vyznačený popruh povolen\n</string>
+    <string name="enrolment_text_device_tag_case_error">Vyznačené pouzdro otevřeno\n</string>
+    <string name="enrolment_text_device_beacon_timeout_error">Světelné znamení nenalezeno\n</string>
+    <string name="enrolment_text_device_proximity_error">Vzdálenost překročena\n</string>
+    <string name="enrolment_text_device_beacon_case_error">Pouzdro je otevřeno\n</string>
+    <string name="enrolment_text_fingerprint_title">Skenování otisku prstu</string>
+    <string name="enrolment_text_fingerprint_register" formatted="false">
+%s, Přejeďte prosím ukazováčkem a naskenujte otisk prstu
+</string>
+    <string name="enrolment_text_location_title_type">Ověřování lokace</string>
+    <string name="enrolment_text_location_acquiring_Location">Hledání lokace</string>
+    <string name="enrolment_text_location_location_acquired">Lokace nalezena</string>
+    <string name="enrolment_text_location_location_failed">Lokace nenalezena</string>
+    <string name="enrolment_text_location_order_message">Pro nejlepší signál vyjděte před budovu nebo přistupte k oknu</string>
+    <string name="enrolment_text_location_gps_doesnt_meet_threshold">
+Nedostatečný signál GPS. Prosím, vyjděte před budovu nebo přistupte k oknu.
+</string>
+    <string name="enrolment_text_location_network_doesnt_meet_threshold">
+Nedostatečný datový signál. Prosím, vyjděte před budovu nebo přistupte k oknu.
+</string>
+    <string name="enrolment_text_location_gps_network_doesnt_meet_threshold">
+Nedostatečný signál dat a GPS. Prosím, vyjděte před budovu nebo přistup k oknu.</string>
+    <string name="enrolment_text_location_no_gps_point">
+Bez GPS. Zkontrolujte prosím svůj telefon.
+</string>
+    <string name="enrolment_text_location_no_network_point">
+Bez datového signálu. Zkontrolujte prosím svůj telefon.
+</string>
+    <string name="enrolment_text_location_no_gps_network_point">
+Bez datového signálu a GPS. Zkontrolujte prosím svůj telefon.
+</string>
+    <string name="enrolment_text_location_gps_network_points">
+Datový signál a GPS připojeno. Počet satelitů:
+</string>
+    <string name="enrolment_button_start_enrolment">Začátek zapisování</string>
+    <string name="enrolment_button_back">Zpět</string>
+    <string name="enrolment_button_next">Další</string>
+    <string name="enrolment_button_skip">Přeskočit</string>
+    <string name="enrolment_button_finish">Dokončit</string>
+    <string name="voice_call">Hlasový hovor</string>
+    <string name="incoming_call">Příchozí hovor...</string>
+    <string name="incoming_call_slide_to_answer">Přijmout přejetím prstu</string>
+    <!--  OffenderDetails  -->
+    <string name="enrollment_text_title_offenderDetails">Detaily trestance</string>
+    <string name="enrollment_text_offenderDetails_details">DETAILY</string>
+    <string name="enrollment_text_offenderDetails_primaryPhone">PRIMÁRNÍ TELEFON</string>
+    <string name="enrollment_text_offenderDetails_secondaryPhone">SEKUNDÁRNÍ TELEFON</string>
+    <string name="enrollment_text_offenderDetails_homeAddr">DOMÁCÍ ADRESA</string>
+    <string name="enrollment_text_offenderDetails_agency">AGENTURY A POLICISTÉ</string>
+    <string name="lockscreen_text_slide_to_unlock">Přejetím prstem odemknete</string>
+
+
+    <!--  Launcher  -->
+    <string name="launcher_button_show_settings">Ukázat nastavení</string>
+    <string name="launcher_button_shutdown">Vypnout</string>
+    <string name="dialog_text_shutdown" formatted="false">Vypnout zařízení?</string>
+    <string name="launcher_text_enter_officer_mode">Spustit mód Policista</string>
+    <string name="launcher_text_enter_offender_mode">Spustit mód Trestanec</string>
+
+    <!--  	 Communication Server Details -->
+    <string name="communication_server_text_url">http://emsps.justice.cz/PureMonitorwcfservice/RestfulService.svc/</string>
+
+</resources>
+

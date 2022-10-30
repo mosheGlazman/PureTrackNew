@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout android:id="@+id/ll_hearth_beat"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:background="#000"
+            android:padding="1dp"
+            android:layout_height="130dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#fff">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:text="Hearth beat"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_hearth_beat_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:padding="2dp"
+                    android:text="aa:aa:aa:aa:aa:aa"
+                    android:textSize="14dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:id="@+id/refresh_hearth_beat_btn"
+                        android:layout_width="46dp"
+                        android:layout_height="46dp"
+                        android:gravity="center"
+                        android:text="↻"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/start_hearth_beat_btn"
+                        android:layout_width="70dp"
+                        android:layout_height="46dp"
+                        android:gravity="center"
+                        android:text="Start"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/stop_hearth_beat_btn"
+                        android:layout_width="70dp"
+                        android:layout_height="46dp"
+                        android:gravity="center"
+                        android:text="Stop"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/tv_hearth_beat_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:padding="2dp"
+                    android:text="Hearth beat"
+                    android:textSize="12dp" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/language_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="15dp"
+            android:text="Language"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <Spinner
+            android:id="@+id/language_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="16dp"
+            android:entries="@array/languages_options"
+            android:spinnerMode="dropdown" />
+
+        <LinearLayout android:id="@+id/ll_server_old"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/server_name_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="15dp"
+                android:text="Server Name:"
+                android:textColor="@color/black_alpha"
+                android:textSize="14sp" />
+            <Spinner
+                android:id="@+id/servers_spinner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="16dp" />
+            <TextView
+                android:id="@+id/server_url_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:text="Server URL:"
+                android:textColor="@color/black_alpha"
+                android:textSize="14sp" />
+            <EditText
+                android:id="@+id/selected_server_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="36dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:background="#000000"
+                android:hint="Server"
+                android:padding="3dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#acacac"
+                android:textSize="20sp" />
+        </LinearLayout>
+        <LinearLayout android:id="@+id/ll_server_new"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/server_name_title_1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="15dp"
+                android:text="Server Name:"
+                android:textColor="@color/black_alpha"
+                android:textSize="14sp" />
+            <Spinner
+                android:id="@+id/sp_servers_list"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="16dp" />
+            <TextView
+                android:id="@+id/tv_server_url"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="3dp"
+                android:text=""
+                android:textColor="@color/darkRed"
+                android:textSize="14sp" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="15dp"
+            android:text="PureTrack Serial Number"
+            android:textColor="@color/black_alpha"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/serial_number_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:hint="Serial number"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="16dp"
+            android:background="#000000"
+            android:padding="3dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#acacac"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="15dp"
+            android:text="Server Password"
+            android:textColor="@color/black_alpha"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="16dp"
+            android:layout_height="46dp">
+
+            <EditText
+                android:id="@+id/server_password_edit_text"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:hint="Server password"
+                android:layout_marginBottom="5dp"
+                android:background="#000000"
+                android:maxLength="20"
+                android:padding="3dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#acacac"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_random_password"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:gravity="center"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="random"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btn_register_device"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:gravity="center"
+            android:text="Register Device"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="15dp"
+            android:text="Tag ID"
+            android:textColor="@color/black_alpha"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/tag_rf_id_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:hint="Tag ID"
+            android:background="#000000"
+            android:padding="3dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#acacac"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="15dp"
+            android:gravity="start"
+            android:text="Knox License Production Key"
+            android:textColor="@color/black_alpha"
+            android:textSize="14sp" />
+
+
+        <EditText
+            android:id="@+id/knox_license_key_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="36dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="80"
+            android:background="#000000"
+            android:hint="Knox Settings"
+            android:padding="3dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#acacac"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/cb_allow_power_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="15dp"
+            android:text="Allow power button"
+            android:textColor="@color/black_alpha"
+            android:textSize="14sp" />
+
+        <CheckBox
+            android:id="@+id/checkUseClientCert"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="15dp"
+            android:text="Use Certificate"
+            android:textColor="@color/black_alpha"
+            android:textSize="14sp" />
+
+
+        <CheckBox
+            android:id="@+id/write_to_file_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:checked="false"
+            android:text="Write Application Logs to Text File"
+            android:textColor="@color/black_alpha"
+            android:textSize="14sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="4dp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="4dp"
+                android:background="#ECD2AC"
+                android:padding="6dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:text="Get new location"
+                        android:layout_height="wrap_content"/>
+
+                    <Button
+                        android:id="@+id/btn_mock_gps"
+                        android:layout_width="wrap_content"
+                        android:layout_height="36dp"
+                        android:layout_margin="6dp"
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:text="mock location"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="54dp">
+
+
+
+                    <Button
+                        android:id="@+id/btn_get_new_location_gps"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="4dp"
+                        android:text="GPS"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/btn_get_new_location_network"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="4dp"
+                        android:text="NETWORK"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TextView android:id="@+id/tv_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <LinearLayout android:id="@+id/ll_mock_gps"
+                    android:visibility="gone"
+                    android:padding="4dp"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="6dp"
+                    android:background="#10000000"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="#000000"
+                        android:text="Add to lat and lon to make mock location. is not saved, deleted when the add restart"
+                        android:layout_height="40dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Lat:"
+                            android:padding="4dp"
+                            android:layout_height="40dp"/>
+
+                        <EditText android:id="@+id/et_mock_location_lat"
+                            android:layout_width="match_parent"
+                            android:inputType="numberDecimal"
+                            android:privateImeOptions="disableToolbar=true"
+                            android:hint="type value to add. example: 0.01"
+                            android:textSize="16dp"
+                            android:textColor="#303030"
+                            android:layout_weight="1"
+                            android:layout_height="40dp"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="Lon:"
+                            android:padding="4dp"
+                            android:layout_height="40dp"/>
+
+                        <EditText android:id="@+id/et_mock_location_lon"
+                            android:layout_width="match_parent"
+                            android:inputType="numberDecimal"
+                            android:privateImeOptions="disableToolbar=true"
+                            android:hint="type value to add. example: 0.01"
+                            android:textSize="16dp"
+                            android:textColor="#303030"
+                            android:layout_weight="1"
+                            android:layout_height="40dp"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/cycle_now_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:text="Do Cycle"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/heart_beat_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:text="Show heart beat"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/settings_dialog_open_dialer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:text="Open dialer"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/magnetics_calibrate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:text="Magnetics calibrate"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_finger_print"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:text="Get finger print"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_finger_print_enroll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:text="Start enrollment"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/btn_finger_print_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:text="Get finger print status"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/settings_dialog_open_device_settings"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:text="Open settings"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/devConfig_google_play_process_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:text="Start Google Play Update"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/devConfig_start_knox_process_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:text="Open Knox App"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/btn_sensors_log_disable"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:text="sensors log"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/btn_sensors_log_enable"
+                    android:drawableLeft="@drawable/ic_baseline_check_24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:textSize="14dp"
+                    android:padding="4dp"
+                    android:text="hide sensors"
+                    android:textStyle="bold" />
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+        <TextView
+            android:id="@+id/app_version_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="15dp"
+            android:text="PureTrack Ver"
+            android:textColor="@color/black_alpha"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_app_params"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="15dp"
+            android:text="Show params"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black_alpha"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+</ScrollView>
