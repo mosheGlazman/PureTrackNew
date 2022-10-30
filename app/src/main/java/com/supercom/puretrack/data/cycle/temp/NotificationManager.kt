@@ -38,7 +38,7 @@ object NotificationManager {
                 context,
                 999,
                 notificationIntent,
-                PendingIntent.FLAG_MUTABLE
+                PendingIntent.FLAG_UPDATE_CURRENT
             )
         }
 

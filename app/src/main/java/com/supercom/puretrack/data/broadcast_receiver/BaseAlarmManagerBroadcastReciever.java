@@ -42,7 +42,7 @@ public class BaseAlarmManagerBroadcastReciever extends BroadcastReceiver {
         AlarmManager am = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
         Intent intent = new Intent(context, callbackReceiverClass);
         intent.putExtra(ONE_TIME, Boolean.FALSE);
-        PendingIntent pi = PendingIntent.getBroadcast(context, requestAlaramCode, intent, PendingIntent.FLAG_IMMUTABLE);
+        PendingIntent pi = PendingIntent.getBroadcast(context, requestAlaramCode, intent, 0);
 
         am.setRepeating(AlarmManager.RTC_WAKEUP, triggerlMillis, intervalMillis, pi);
     }
@@ -68,7 +68,7 @@ public class BaseAlarmManagerBroadcastReciever extends BroadcastReceiver {
         writeToLogs(triggerlMillis, requestAlaramCode);
         AlarmManager am = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
         Intent intent = getIntent(context, callbackReceiverClass, type, action);
-        PendingIntent pi = PendingIntent.getBroadcast(context, requestAlaramCode, intent,PendingIntent.FLAG_IMMUTABLE);
+        PendingIntent pi = PendingIntent.getBroadcast(context, requestAlaramCode, intent, PendingIntent.FLAG_UPDATE_CURRENT);
         am.setAlarmClock(new AlarmManager.AlarmClockInfo(triggerlMillis, pi), pi);
     }
 
